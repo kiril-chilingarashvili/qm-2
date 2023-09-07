@@ -11,6 +11,10 @@ publish: true
 - [Index manipulation- cheatsheet 1](img/img-0-1.png)
 - [Index manipulation- cheatsheet 2](img/img-0-2.png)
 
-## Week 1
+## Week 1 & Week 2
 
 - [Notes - 	Linear Algebra: Vector Spaces and Operators - MIT8_05F13_Chap_03.pdf](pdf/MIT8_05F13_Chap_03.pdf)
+
+# Week 3
+
+- [Notes - 	Linear Algebra: Matrix Representations and Observables - MIT8_05F13_Chap_04.pdf](pdf/MIT8_05F13_Chap_04.pdf)
