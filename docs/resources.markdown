@@ -15,7 +15,7 @@ publish: true
 
 - [Notes - 	Linear Algebra: Vector Spaces and Operators - MIT8_05F13_Chap_03.pdf](pdf/MIT8_05F13_Chap_03.pdf)
 
-# Week 3
+## Week 3
 
 - [Notes - 	Linear Algebra: Matrix Representations and Observables - MIT8_05F13_Chap_04.pdf](pdf/MIT8_05F13_Chap_04.pdf)
 - [Bra-Kets - cheatsheet 1](img/img-5-1.png)
