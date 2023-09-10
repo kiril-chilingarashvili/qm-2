@@ -23,3 +23,4 @@ publish: true
 - [Bra-Kets - cheatsheet 3](img/img-5-3.png)
 - [Bra-Kets - cheatsheet 4](img/img-5-4.png)
 - [Bra-Kets - cheatsheet 5](img/img-5-5.png)
+- [Is there an operator that reverses the direction of all spin states?](img/img-5-6.png)
