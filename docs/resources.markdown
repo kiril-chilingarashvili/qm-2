@@ -18,3 +18,8 @@ publish: true
 # Week 3
 
 - [Notes - 	Linear Algebra: Matrix Representations and Observables - MIT8_05F13_Chap_04.pdf](pdf/MIT8_05F13_Chap_04.pdf)
+- [Bra-Kets - cheatsheet 1](img/img-5-1.png)
+- [Bra-Kets - cheatsheet 2](img/img-5-2.png)
+- [Bra-Kets - cheatsheet 3](img/img-5-3.png)
+- [Bra-Kets - cheatsheet 4](img/img-5-4.png)
+- [Bra-Kets - cheatsheet 5](img/img-5-5.png)
