@@ -20,8 +20,8 @@ publish: true
 
 #### Book
 
-- [Book - 13.1](pdf/b-13-1.pdf)
-- [Book - 13.2](pdf/b-13-2.pdf)
+- [Book - 13.1](pdf/book-13-1.pdf)
+- [Book - 13.2](pdf/book-13-2.pdf)
 
 #### Notes
 
@@ -31,9 +31,9 @@ publish: true
 
 #### Book
 
-- [Book - 13.3](pdf/b-13-3.pdf)
-- [Book - 13.4](pdf/b-13-4.pdf)
-- [Book - 13.5](pdf/b-13-5.pdf)
+- [Book - 13.3](pdf/book-13-3.pdf)
+- [Book - 13.4](pdf/book-13-4.pdf)
+- [Book - 13.5](pdf/book-13-5.pdf)
 
 ## Week 2
 
@@ -41,17 +41,17 @@ publish: true
 
 #### Book
 
-- [Book - 13.6](pdf/b-13-6.pdf)
-- [Book - 14.1](pdf/b-14-1.pdf)
-- [Book - 14.2](pdf/b-14-2.pdf)
-- [Book - 14.3](pdf/b-14-3.pdf)
+- [Book - 13.6](pdf/book-13-6.pdf)
+- [Book - 14.1](pdf/book-14-1.pdf)
+- [Book - 14.2](pdf/book-14-2.pdf)
+- [Book - 14.3](pdf/book-14-3.pdf)
 
 ### Lecture 4: Linear Algebra: Vector Spaces and Operators Continued
 
 #### Book
 
-- [Book - 14.4](pdf/b-14-4.pdf)
-- [Book - 14.5](pdf/b-14-5.pdf)
+- [Book - 14.4](pdf/book-14-4.pdf)
+- [Book - 14.5](pdf/book-14-5.pdf)
 
 #### Notes
 
@@ -63,7 +63,7 @@ publish: true
 
 #### Book
 
-- [Book - 14.8](pdf/b-14-8.pdf)
+- [Book - 14.8](pdf/book-14-8.pdf)
 
 #### Notes
 
@@ -79,9 +79,9 @@ publish: true
 
 #### Book
 
-- [Book - 14.10](pdf/b-14-10.pdf)
-- [Book - 15.1](pdf/b-15-1.pdf)
-- [Book - 15.2](pdf/b-15-2.pdf)
+- [Book - 14.10](pdf/book-14-10.pdf)
+- [Book - 15.1](pdf/book-15-1.pdf)
+- [Book - 15.2](pdf/book-15-2.pdf)
 
 ## Week 4
 
@@ -89,23 +89,23 @@ publish: true
 
 #### Book
 
-- [Book - 15.3](pdf/b-15-3.pdf)
-- [Book - 15.4](pdf/b-15-4.pdf)
-- [Book - 15.5](pdf/b-15-5.pdf)
-- [Book - 15.6](pdf/b-15-6.pdf)
+- [Book - 15.3](pdf/book-15-3.pdf)
+- [Book - 15.4](pdf/book-15-4.pdf)
+- [Book - 15.5](pdf/book-15-5.pdf)
+- [Book - 15.6](pdf/book-15-6.pdf)
 
 ### Lecture 8: Spectral Decomposition and CSCO's
 
 #### Book
 
-- [Book - 15.7](pdf/b-15-7.pdf)
-- [Book - 15.8](pdf/b-15-8.pdf)
+- [Book - 15.7](pdf/book-15-7.pdf)
+- [Book - 15.8](pdf/book-15-8.pdf)
 
 ### Deep Dives
 
 #### Book
 
-- [Book - 7.7](pdf/b-7.7.pdf)
+- [Book - 7.7](pdf/book-7.7.pdf)
 
 ## Week 5
 
@@ -113,14 +113,14 @@ publish: true
 
 #### Book
 
-- [Book - 16.1](pdf/b-16-1.pdf)
-- [Book - 16.2](pdf/b-16-2.pdf)
-- [Book - 16.3](pdf/b-16-3.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.2](pdf/book-16-2.pdf)
+- [Book - 16.3](pdf/book-16-3.pdf)
 
 ### Lecture 10: Heisenberg operators and Axioms of QM
 
 #### Book
 
-- [Book - 16.4](pdf/b-16-4.pdf)
-- [Book - 16.5](pdf/b-16-5.pdf)
-- [Book - 16.6](pdf/b-16-6.pdf)
+- [Book - 16.4](pdf/book-16-4.pdf)
+- [Book - 16.5](pdf/book-16-5.pdf)
+- [Book - 16.6](pdf/book-16-6.pdf)
