@@ -749,7 +749,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{808, 763},
-WindowMargins->{{Automatic, 141}, {55.5, Automatic}},
+WindowMargins->{{Automatic, 141}, {19.5, Automatic}},
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (November 18, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"692ed3be-61a8-4fd8-8bc4-02bbed16e5bc"
