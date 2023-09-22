@@ -105,7 +105,7 @@ publish: true
 
 #### Book
 
-- [Book - 7.7](pdf/book-7.7.pdf)
+- [Book - 7.7](pdf/book-7-7.pdf)
 
 ## Week 5
 
