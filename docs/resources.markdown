@@ -83,6 +83,13 @@ publish: true
 - [Book - 15.1 - Uncertainty Defined](pdf/book-15-1.pdf)
 - [Book - 15.2 - The Uncertainty Principle](pdf/book-15-2.pdf)
 
+### Deep Dives
+
+#### Notes
+
+- [Every operator on a finite dimentional complex vector space has an eigenvalue - cheatsheet](img/img-6-1.png)
+- [Is there an operator that reverses the direction of all spin states? - cheatsheet](img/img-6-2.png)
+
 ## Week 4
 
 ### Lecture 7: Uncertainty Principle and Compatible Observables Continued
@@ -111,7 +118,9 @@ publish: true
 - [4 Ways to Do a Computation - cheatsheet 1](img/img-8-4.png)
 - [4 Ways to Do a Computation - cheatsheet 2](img/img-8-5.png)
 - [4 Ways to Do a Computation - cheatsheet 3](img/img-8-6.png)
-- [4 Ways to Do a Computation - cheatsheet 3](img/img-8-7.png)
+- [4 Ways to Do a Computation - cheatsheet 4](img/img-8-7.png)
+- [Saturating the Uncertainty Inequality - cheatsheet 1](img/img-8-8.png)
+- [Saturating the Uncertainty Inequality - cheatsheet 2](img/img-8-9.png)
 
 #### Book
 
