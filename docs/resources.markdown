@@ -103,6 +103,16 @@ publish: true
 
 ### Deep Dives
 
+#### Notes
+
+- [Virial Theorem - cheatsheet 1](img/img-8-1.png)
+- [Virial Theorem - cheatsheet 2](img/img-8-2.png)
+- [Virial Theorem - cheatsheet 3](img/img-8-3.png)
+- [4 Ways to Do a Computation - cheatsheet 1](img/img-8-4.png)
+- [4 Ways to Do a Computation - cheatsheet 2](img/img-8-5.png)
+- [4 Ways to Do a Computation - cheatsheet 3](img/img-8-6.png)
+- [4 Ways to Do a Computation - cheatsheet 3](img/img-8-7.png)
+
 #### Book
 
 - [Book - 7.7 - Virial Theorem](pdf/book-7-7.pdf)
