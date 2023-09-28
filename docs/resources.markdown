@@ -143,3 +143,46 @@ publish: true
 - [Book - 16.4 - Heisenberg Picture](pdf/book-16-4.pdf)
 - [Book - 16.5 - Heisenberg Equations of Motion](pdf/book-16-5.pdf)
 - [Book - 16.6 - Axioms of Quantum Mechanics](pdf/book-16-6.pdf)
+
+## Week 6
+
+### Lecture 11: Coherent States
+
+#### Book
+
+- [Book - 17.1](pdf/book-17-1.pdf)
+- [Book - 17.2](pdf/book-17-2.pdf)
+- [Book - 17.3](pdf/book-17-3.pdf)
+
+### Deep Dive: Precession with general hamiltonians
+
+### Lecture 12: Squeezed States
+
+#### Book
+
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+
+## Week 7
+
+### Lecture 13: Two State Systems and NMR
+
+#### Book
+
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+
+### Deep Dive: Molecule Interactions
+
+### Lecture 14: Multiparticle States
+
+#### Book
+
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 16.1](pdf/book-16-1.pdf)
