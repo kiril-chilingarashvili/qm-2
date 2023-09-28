@@ -150,9 +150,9 @@ publish: true
 
 #### Book
 
-- [Book - 17.1](pdf/book-17-1.pdf)
-- [Book - 17.2](pdf/book-17-2.pdf)
-- [Book - 17.3](pdf/book-17-3.pdf)
+- [Book - 17.1 - Dynamics of QUantum Systems](pdf/book-17-1.pdf)
+- [Book - 17.2 - Heisenberg Picture for Coherent States](pdf/book-17-2.pdf)
+- [Book - 17.3 - General Coherent States](pdf/book-17-3.pdf)
 
 ### Deep Dive: Precession with general hamiltonians
 
@@ -166,10 +166,10 @@ publish: true
 
 #### Book
 
-- [Book - 17.4](pdf/book-17-4.pdf)
-- [Book - 17.5](pdf/book-17-5.pdf)
-- [Book - 14.7](pdf/book-14-7.pdf)
-- [Book - 17.6](pdf/book-17-6.pdf)
+- [Book - 17.4 - Photon STates](pdf/book-17-4.pdf)
+- [Book - 17.5 - Spin Precession in a Magnetic Field](pdf/book-17-5.pdf)
+- [Book - 14.7 - Rotation Operators for Spin States](pdf/book-14-7.pdf)
+- [Book - 17.6 - Nuclear Magnetic Resonance](pdf/book-17-6.pdf)
 
 ### Deep Dive: Molecule Interactions
 
@@ -177,7 +177,7 @@ publish: true
 
 #### Book
 
-- [Book - 18.1](pdf/book-18-1.pdf)
-- [Book - 18.2](pdf/book-18-2.pdf)
-- [Book - 18.3](pdf/book-18-3.pdf)
-- [Book - 18.5](pdf/book-18-5.pdf)
+- [Book - 18.1 - Multiparticle States and Tensor Products](pdf/book-18-1.pdf)
+- [Book - 18.2 - Operators on the Tensor Product Space](pdf/book-18-2.pdf)
+- [Book - 18.3 - Inner Products for Tensor Spaces](pdf/book-18-3.pdf)
+- [Book - 18.5 - Entangled States](pdf/book-18-5.pdf)
