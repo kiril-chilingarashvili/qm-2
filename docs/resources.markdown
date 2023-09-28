@@ -160,21 +160,16 @@ publish: true
 
 #### Book
 
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-
 ## Week 7
 
 ### Lecture 13: Two State Systems and NMR
 
 #### Book
 
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 17.4](pdf/book-17-4.pdf)
+- [Book - 17.5](pdf/book-17-5.pdf)
+- [Book - 14.7](pdf/book-14-7.pdf)
+- [Book - 17.6](pdf/book-17-6.pdf)
 
 ### Deep Dive: Molecule Interactions
 
@@ -182,7 +177,7 @@ publish: true
 
 #### Book
 
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
-- [Book - 16.1](pdf/book-16-1.pdf)
+- [Book - 18.1](pdf/book-18-1.pdf)
+- [Book - 18.2](pdf/book-18-2.pdf)
+- [Book - 18.3](pdf/book-18-3.pdf)
+- [Book - 18.5](pdf/book-18-5.pdf)
