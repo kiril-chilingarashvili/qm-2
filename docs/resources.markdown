@@ -143,3 +143,41 @@ publish: true
 - [Book - 16.4 - Heisenberg Picture](pdf/book-16-4.pdf)
 - [Book - 16.5 - Heisenberg Equations of Motion](pdf/book-16-5.pdf)
 - [Book - 16.6 - Axioms of Quantum Mechanics](pdf/book-16-6.pdf)
+
+## Week 6
+
+### Lecture 11: Coherent States
+
+#### Book
+
+- [Book - 17.1 - Dynamics of QUantum Systems](pdf/book-17-1.pdf)
+- [Book - 17.2 - Heisenberg Picture for Coherent States](pdf/book-17-2.pdf)
+- [Book - 17.3 - General Coherent States](pdf/book-17-3.pdf)
+
+### Deep Dive: Precession with general hamiltonians
+
+### Lecture 12: Squeezed States
+
+#### Book
+
+## Week 7
+
+### Lecture 13: Two State Systems and NMR
+
+#### Book
+
+- [Book - 17.4 - Photon STates](pdf/book-17-4.pdf)
+- [Book - 17.5 - Spin Precession in a Magnetic Field](pdf/book-17-5.pdf)
+- [Book - 14.7 - Rotation Operators for Spin States](pdf/book-14-7.pdf)
+- [Book - 17.6 - Nuclear Magnetic Resonance](pdf/book-17-6.pdf)
+
+### Deep Dive: Molecule Interactions
+
+### Lecture 14: Multiparticle States
+
+#### Book
+
+- [Book - 18.1 - Multiparticle States and Tensor Products](pdf/book-18-1.pdf)
+- [Book - 18.2 - Operators on the Tensor Product Space](pdf/book-18-2.pdf)
+- [Book - 18.3 - Inner Products for Tensor Spaces](pdf/book-18-3.pdf)
+- [Book - 18.5 - Entangled States](pdf/book-18-5.pdf)
