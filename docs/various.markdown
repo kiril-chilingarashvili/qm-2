@@ -66,3 +66,27 @@ publish: true
 
     where we used $\braket{x|0} = \varphi_0(x)$ is the ground state wave
 function.
+
+    Expectations in a coherent state:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle {}_{c}\braket{x_0|\hat{x}|x_0}_c 
+                  & = & \displaystyle x_0 \\
+              \displaystyle {}_{c}\braket{x_0|\hat{p}|x_0}_c 
+                  & = & 0 \\
+              \displaystyle {}_{c}\braket{x_0|\hat{H}|x_0}_c
+                  & = & \displaystyle \frac{1}{2} \hbar \omega + \frac{1}{2} m \omega^2 x_0^2 \\
+              \displaystyle {}_{c}\braket{x_0|\hat{x}^2|x_0}_c
+                  & = & \displaystyle x_0^2 + \frac{\hbar}{2 m \omega}  \\
+              \displaystyle {}_{c}\braket{x_0|\hat{p}^2|x_0}_c
+                  & = & \displaystyle  \frac{m\hbar\omega}{2}  \\
+              \displaystyle {}_{c}\braket{x_0|\hat{x}\hat{p}+\hat{p}\hat{x}|x_0}_c
+                  & = & 0  \\
+                  
+
+            \end{array}
+          
+        \end{equation*}
+    $$
