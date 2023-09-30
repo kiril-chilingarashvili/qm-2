@@ -4,6 +4,31 @@ title: Various
 publish: true
 ---
 
+- Heisenberg operators:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle \hat{x}_H (t)
+                  & = & \displaystyle \hat{x} \cos \omega t + \frac{\hat{p}}{m \omega} \sin \omega t \\
+                \displaystyle \hat{p}_H (t) 
+                    & = & \displaystyle \hat{p} \cos \omega t - m \omega \hat{x} \sin \omega t  \\ 
+                \displaystyle A_H (t) 
+                    & = & \displaystyle \mathcal{U}^\dagger (t, 0) A_S \mathcal{U} (t, 0) \\
+                    & = & \displaystyle e^{\frac{i}{\hbar} \hat{H} t} A_S e^{-\frac{i}{\hbar} \hat{H} t} \\
+                \displaystyle \hat{a}(t) = \hat{a}_H(t) 
+                    & = & \displaystyle e^{-i \omega t} \hat{a} \\
+                \displaystyle \hat{a}^\dagger(t) = \hat{a}_H^\dagger(t) 
+                    & = & \displaystyle e^{i \omega t} \hat{a}^\dagger \\
+                \displaystyle \hat{x}
+                    & = & \displaystyle \sqrt{\frac{\hbar}{2 m \omega}} (\hat{a} + \hat{a}^\dagger) \\
+                \displaystyle \hat{p}
+                    & = & \displaystyle i \sqrt{\frac{m \hbar \omega}{2}} (\hat{a}^\dagger - \hat{a}) \\
+            \end{array}
+          
+        \end{equation*}
+    $$
+
 - Identity:
 
     $$ \begin{equation*}
