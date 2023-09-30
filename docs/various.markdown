@@ -115,3 +115,47 @@ function.
           
         \end{equation*}
     $$
+
+- Time-dependent expectation values:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle \braket{\hat{x}}_{x_0}(t) 
+                  & = & \displaystyle {}_{c}\braket{x_0, t | \hat{x} | x_0, t}_c \\
+                  & = & \displaystyle {}_c\braket{x_0 | \hat{x}_H(t) | x_0}_c \\
+                  & = & \displaystyle {}_c\braket{x_0 | \left( \hat{x} \cos \omega t + \frac{1}{m\omega} \hat{p} \sin \omega t \right)  | x_0 } {}_c \\
+                  & = & \displaystyle x_0 \cos \omega t
+
+                  \\ \\ 
+
+            \displaystyle \braket{\hat{p}}_{x_0}(t)
+                & = & \displaystyle -m \omega x_0 \sin \omega t
+            \end{array}
+          
+        \end{equation*}
+    $$
+
+- Time-dependent position and momentum uncertainties:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle (\Delta x )^2
+                  & = & \displaystyle \frac{1}{2} L_0^2 \quad \text{on the state}\, \ket{x_0}_c
+
+                  \\ \\
+
+              \displaystyle (\Delta p )^2
+                  & = & \displaystyle \frac{1}{2} \left(\frac{\hbar}{L_0}\right)^2  \quad \text{on the state}\, \ket{x_0}_c
+
+                  \\ 
+
+              \displaystyle L_0 
+                & = & \displaystyle \sqrt{\frac{\hbar}{m \omega}} \quad \text{is the ground state length}
+
+                  \\ \\
+            \end{array}
+          
+        \end{equation*}
+    $$
