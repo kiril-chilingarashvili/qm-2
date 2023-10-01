@@ -159,3 +159,15 @@ function.
           
         \end{equation*}
     $$
+
+- Commutator identity:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle e^{A+B} 
+                  & = & \displaystyle e^{A}e^{B}e^{-\frac{1}{2}[A,B]} \quad \text{if}\, [A,[A,B]] = [B,[A,B]] = 0
+            \end{array}
+          
+        \end{equation*}
+    $$
