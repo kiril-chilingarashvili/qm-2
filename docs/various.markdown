@@ -160,13 +160,53 @@ function.
         \end{equation*}
     $$
 
-- Commutator identity:
+- Commutator identities:
 
     $$ \begin{equation*}
           
             \begin{array} {rcl}
               \displaystyle e^{A+B} 
-                  & = & \displaystyle e^{A}e^{B}e^{-\frac{1}{2}[A,B]} \quad \text{if}\, [A,[A,B]] = [B,[A,B]] = 0
+                  & = & \displaystyle e^{A}e^{B}e^{-\frac{1}{2}[A,B]} \quad \text{if}\, [A,[A,B]] = [B,[A,B]] = 0 \\
+              \displaystyle [A, e^{B}] 
+                  & = & \displaystyle [A, B] e^{B} \quad \text{if}\, [[A,B], B] = 0 \\
+            \end{array}
+          
+        \end{equation*}
+    $$
+
+- Creation and annihilation operators:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle \hat{a} 
+                  & = & \displaystyle \sqrt{\frac{m \omega}{2 \hbar}} \left( \hat{x} + \frac{i}{m \omega} \hat{p} \right) \\ \\
+              \displaystyle \hat{a}^\dagger 
+                  & = & \displaystyle \sqrt{\frac{m \omega}{2 \hbar}} \left( \hat{x} - \frac{i}{m \omega} \hat{p} \right) \\ \\
+              \displaystyle [\hat{a}, \hat{a}^\dagger]
+                  & = & \displaystyle 1 \\ \\
+                \displaystyle \hat{H} 
+                    & = & \displaystyle \hbar \omega \left( \hat{a}^\dagger \hat{a} + \frac{1}{2} \right) \\ \\
+                \displaystyle \hat{N}   
+                    & = & \displaystyle \hat{a}^\dagger \hat{a} \\ \\
+                \displaystyle [\hat{N}, \hat{a}^\dagger] 
+                    & = & \displaystyle \hat{a}^\dagger \\ \\
+                \displaystyle [\hat{N}, \hat{a}] 
+                    & = & \displaystyle  - \hat{a} \\ \\
+                \displaystyle [\hat{N}, (\hat{a}^\dagger)^k] 
+                    & = & \displaystyle k (\hat{a}^\dagger)^k \\ \\
+                \displaystyle [\hat{N}, (\hat{a})^k] 
+                    & = & \displaystyle   - k (\hat{a})^k \\ \\
+                \displaystyle [\hat{a}^\dagger, (\hat{a})^k] 
+                    & = & \displaystyle  -k (\hat{a})^{k-1} \\ \\
+                \displaystyle [\hat{a}, (\hat{a}^\dagger)^k] 
+                    & = & \displaystyle   k (\hat{a}^\dagger)^{k-1} \\ \\
+                \displaystyle \ket{n} 
+                    & \equiv & \displaystyle  \frac{1}{\sqrt{n!}} (\hat{a}^\dagger)^n \ket{0} \\ \\
+                \displaystyle \hat{a}\ket{n} 
+                    & = & \displaystyle \sqrt{n} \ket{n-1} \\ \\
+                \displaystyle \hat{a}^\dagger\ket{n} 
+                    & = & \displaystyle  \sqrt{n+1} \ket{n+1} \\ \\
             \end{array}
           
         \end{equation*}
