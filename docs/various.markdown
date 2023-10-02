@@ -295,3 +295,40 @@ function.
             \frac{\braket{E}}{(\Delta E)} = \sqrt{\lambda} + \frac{1}{2\sqrt{\lambda}} \simeq \sqrt{\lambda}
         \end{equation*}
     $$
+
+- Arbitrary coherent state $\ket{\alpha}$:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+                \displaystyle \ket{\alpha} 
+                    & \equiv & \displaystyle D(\alpha) \ket{0} \\
+                    & = & \displaystyle \exp \left( \alpha \hat{a}^\dagger - \alpha^* \hat{a} \right) \ket{0}, \quad\text{with}\, \alpha \in \mathbb{C} \\
+                \displaystyle D(\alpha) 
+                    & = & \displaystyle \exp \left( \alpha \hat{a}^\dagger - \alpha^* \hat{a} \right) \\  \\
+                \displaystyle \hat{a}\ket{\alpha} 
+                    & = & \displaystyle \alpha \ket{\alpha} \\ \\
+                    
+                \displaystyle \braket{\alpha|\hat{x}|\alpha} 
+                    & = & \displaystyle L_0 \sqrt{2} \operatorname{Re}(\alpha) \\
+                \displaystyle \implies \operatorname{Re}(\alpha)
+                    & = & \displaystyle \frac{1}{\sqrt{2}} \frac{\braket{\hat{x}}_\alpha}{L_0} \\ \\
+                    
+                \displaystyle \braket{\alpha|\hat{p}|\alpha} 
+                    & = & \displaystyle \sqrt{2} \frac{\hbar}{L_0} \operatorname{Im}(\alpha) \\
+                \displaystyle \implies \operatorname{Im}(\alpha)
+                    & = & \displaystyle \frac{1}{\sqrt{2}} \frac{L_0}{\hbar} \braket{\hat{p}}_\alpha \\ \\
+
+                \displaystyle \implies \alpha
+                    & = & \displaystyle \frac{1}{\sqrt{2}} \left( \frac{\braket{\hat{x}}_\alpha}{L_0} + i \frac{L_0\braket{\hat{p}}_\alpha}{\hbar} \right) \\ \\ 
+
+                \displaystyle \ket{\alpha}
+                    & = & \displaystyle \exp \left( -\frac{i\hat{p}\braket{\hat{x}}_\alpha}{\hbar} + \frac{i\braket{\hat{p}}_\alpha\hat{x}}{\hbar} \right) \ket{0} \\ \\
+
+                \displaystyle \ket{\alpha, t}
+                    & = & e^{-i\omega t/2} \ket{ e^{-i\omega t} \alpha } \\ \\
+
+            \end{array}
+          
+        \end{equation*}
+    $$
