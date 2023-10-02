@@ -171,3 +171,87 @@ function.
           
         \end{equation*}
     $$
+
+- $\hat{x}$ and $\hat{p}$ in terms of $\hat{a}^\dagger$, $\hat{a}$ and $L_0$:
+
+    $$ \begin{equation*}
+          
+            \begin{array} {rcl}
+              \displaystyle \hat{p} 
+                  & = & \displaystyle \frac{i}{\sqrt{2}} \frac{\hbar}{L_0} (\hat{a}^\dagger - \hat{a}) \\ \\
+              \displaystyle \hat{x} 
+                  & = & \displaystyle \frac{L_0}{\sqrt{2}} (\hat{a} + \hat{a}^\dagger) \\
+            \end{array}
+          
+        \end{equation*}
+    $$
+
+- Coherent state
+
+    $$ \begin{equation*}
+          \ket{x_0}_c = \exp \left( -\frac{i\hat{p} x_0}{\hbar} \right) \ket{0} = \exp \left( -\frac{1}{4} \frac{x_0^2}{L_0^2} \right) \exp \left( \frac{x_0}{\sqrt{2}L_o} \hat{a}^\dagger \right) \ket{0}
+        \end{equation*}
+    $$
+
+    or
+
+    $$ \begin{equation*}
+          \ket{x_0}_c = \sum_{n=0}^\infty c_n \ket{n}, \quad \text{with}\, c_n = \exp \left( -\frac{1}{4} \frac{x_0^2}{L_0^2} \right) \frac{1}{\sqrt{n!}} \left( \frac{x_0}{\sqrt{2}L_o} \right)^n
+        \end{equation*}
+    $$
+
+    Probability $P_n$ of finding the energy $\displaystyle E_n = \hbar \omega \left( n+\frac{1}{2} \right) $:
+
+    $$ \begin{equation*}
+          P_n = |c_n|^2 = \exp \left( -\frac{1}{2} \frac{x_0^2}{L_0^2} \right) \frac{1}{n!} \left( \frac{x_0^2}{2L_o^2} \right)^n
+        \end{equation*}
+    $$
+
+    or
+
+    $$ \begin{equation*}
+          P_n = \frac{\lambda^n}{n!} e^{-\lambda}, \quad \text{with}\, \lambda \equiv \frac{x_0^2}{2L_o^2}
+        \end{equation*}
+    $$
+
+- Expectation value of $n$:
+
+    $$ \begin{equation*}
+            \braket{n} = \sum_{n=0}^\infty n P_n = \lambda = \frac{x_0^2}{2L_o^2}
+        \end{equation*}
+    $$
+
+- Expectation value of $n^2$:
+    
+    $$ \begin{equation*}
+            \braket{n^2} = \sum_{n=0}^\infty n^2 P_n = \lambda^2 + \lambda = \frac{x_0^4}{4L_o^4} + \frac{x_0^2}{2L_o^2}
+        \end{equation*}
+    $$
+
+- Uncertainty in $n$:
+
+    $$ \begin{equation*}
+            (\Delta n)^2 = \braket{n^2} - \braket{n}^2 = \lambda^2 + \lambda - \lambda^2 = \lambda = \frac{x_0^2}{2L_o^2}
+        \end{equation*}
+    $$
+
+- Expectation value of energy $E$:
+
+    $$ \begin{equation*}
+            \braket{E} = \sum_{n=0}^\infty E_n P_n = \hbar \omega \left( \frac{1}{2} + \lambda \right) = \frac{1}{2} \hbar \omega + \frac{1}{2} m \omega^2 x_0^2
+        \end{equation*}
+    $$
+
+- Uncertainty in energy $E$:
+
+    $$ \begin{equation*}
+            (\Delta E) = \hbar \omega \sqrt{\lambda} = \hbar \omega \frac{x_0}{\sqrt{2}L_o}
+        \end{equation*}
+    $$
+
+    Note that for large $\lambda$ the average energy is much higher than the uncertainty in energy:
+
+    $$ \begin{equation*}
+            \frac{\braket{E}}{(\Delta E)} = \sqrt{\lambda} + \frac{1}{2\sqrt{\lambda}} \simeq \sqrt{\lambda}
+        \end{equation*}
+    $$
