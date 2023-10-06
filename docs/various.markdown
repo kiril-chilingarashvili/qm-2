@@ -328,6 +328,12 @@ function.
                 \displaystyle \ket{\alpha, t}
                     & = & e^{-i\omega t/2} \ket{ e^{-i\omega t} \alpha } \\ \\
 
+                \displaystyle \frac{1}{\pi} \int d^2\alpha \ket{\alpha}\bra{\alpha}
+                    & = & \displaystyle \mathbb{1} \\ \\
+
+                \displaystyle \frac{1}{2\pi\hbar} \int \mathop{d x_0} \mathop{d p_0} \ket{x_0, p_0}\bra{x_0, p_0}
+                    & = & \displaystyle \mathbb{1} \\ \\
+
             \end{array}
           
         \end{equation*}
@@ -337,5 +343,12 @@ function.
 
     $$ \begin{equation*}
           \int_0^\infty e^{-u} u^n \, du = n!
+        \end{equation*}
+    $$
+
+- Property of a trace:
+
+    $$ \begin{equation*}
+          \operatorname{tr}\left( \ket{u}\bra{v} \right) = \braket{v | u}
         \end{equation*}
     $$

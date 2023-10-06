@@ -149,6 +149,8 @@ publish: true
 ### Lecture 11: Coherent States
 
 - [Completeness relation for coherent states - cheatsheet 1](img/img-10-1.png)
+- [Completeness relation for coherent states - cheatsheet 2](img/img-10-2.png)
+- [Completeness relation for coherent states - cheatsheet 3](img/img-10-3.png)
 
 #### Book
 
@@ -168,7 +170,7 @@ publish: true
 
 #### Book
 
-- [Book - 17.4 - Photon STates](pdf/book-17-4.pdf)
+- [Book - 17.4 - Photon States](pdf/book-17-4.pdf)
 - [Book - 17.5 - Spin Precession in a Magnetic Field](pdf/book-17-5.pdf)
 - [Book - 14.7 - Rotation Operators for Spin States](pdf/book-14-7.pdf)
 - [Book - 17.6 - Nuclear Magnetic Resonance](pdf/book-17-6.pdf)
