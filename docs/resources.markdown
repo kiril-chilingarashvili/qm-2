@@ -4,6 +4,104 @@ title: Resources
 publish: true
 ---
 
+## [OCW notes](https://ocw.mit.edu/courses/8-05-quantum-physics-ii-fall-2013/pages/lecture-notes/)
+
+- [Notes - WAVE MECHANICS - MIT8_05F13_Chap_01.pdf](pdf/MIT8_05F13_Chap_01.pdf)
+  - The Schrodinger equation
+  - Stationary Solutions
+  - Properties of energy eigenstates in one dimension
+  - The nature of the spectrum
+  - Variational Principle
+  - Position and momentum
+- [Notes - SPIN ONE-HALF, BRAS, KETS, AND OPERATORS - MIT8_05F13_Chap_02.pdf](pdf/MIT8_05F13_Chap_02.pdf)
+  - The Stern-Gerlach Experiment
+  - Spin one-half states and operators
+  - Properties of Pauli matrices and index notation
+  - Spin states in arbitrary direction
+- [Notes - LINEAR ALGEBRA: VECTOR SPACES AND OPERATORS - MIT8_05F13_Chap_03.pdf](pdf/MIT8_05F13_Chap_03.pdf)
+  - Vector spaces and dimensionality
+  - Linear operators and matrices
+  - Eigenvalues and eigenvectors
+  - Inner products
+  - Orthonormal basis and orthogonal projectors
+  - Linear functionals and adjoint operators
+  - Hermitian and Unitary operators
+- [Notes - DIRAC’s BRA AND KET NOTATION - MIT8_05F13_Chap_04.pdf](pdf/MIT8_05F13_Chap_04.pdf)
+  - From inner products to bra-kets
+  - Operators revisited
+    - Projection Operators
+    - Adjoint of a linear operator
+    - Hermitian and Unitary Operators
+  - Non-denumerable basis
+- [Notes - UNCERTAINTY PRINCIPLE AND COMPATIBLE OBSERVABLES - MIT8_05F13_Chap_05.pdf](pdf/MIT8_05F13_Chap_05.pdf)
+  - Uncertainty defined
+  - The Uncertainty Principle
+  - The Energy-Time uncertainty
+  - Lower bounds for ground state energies
+  - Diagonalization of Operators
+  - The Spectral Theorem
+  - Simultaneous Diagonalization of Hermitian Operators
+  - Complete Set of Commuting Observables
+- [Notes - QUANTUM DYNAMICS - MIT8_05F13_Chap_06.pdf](pdf/MIT8_05F13_Chap_06.pdf)
+  - Harmonic oscillator
+  - Schr¨odinger dynamics
+    - Unitary time evolution
+    - Deriving the Schr¨odinger equation
+    - Calculation of the unitary time evolution operator
+  - Heisenberg dynamics
+    - Heisenberg operators
+    - Heisenberg equation of motion
+    - Three examples
+  - Coherent states of the Harmonic oscillator
+    - Translation operator
+    - Deﬁnition and basic properties of coherent states
+    - Time evolution and uncertainties
+    - Coherent states in the energy basis
+    - General coherent states and time evolution
+  - Squeezed states
+    - Squeezed vacuum states
+    - More general squeezed states
+    - Photon states
+- [Notes - TWO STATE SYSTEMS - MIT8_05F13_Chap_07.pdf](pdf/MIT8_05F13_Chap_07.pdf)
+  - Introduction
+  - Spin precession in a magnetic ﬁeld
+  - The general two-state system viewed as a spin system
+  - The ammonia molecule as a two-state system
+  - Ammonia molecule in an electric ﬁeld
+  - Nuclear Magnetic Resonance
+- [Notes - MULTIPARTICLE STATES AND TENSOR PRODUCTS - MIT8_05F13_Chap_08.pdf](pdf/MIT8_05F13_Chap_08.pdf)
+  - Introduction to the Tensor Product
+  - Entangled States
+  - Bell basis states
+  - Quantum Teleportation
+  - EPR and Bell Inequalities
+- [Notes - ANGULAR MOMENTUM - MIT8_05F13_Chap_09.pdf](pdf/MIT8_05F13_Chap_09.pdf)
+  - Orbital angular momentum and central potentials
+    - Quantum mechanical vector identities
+    - Properties of angular momentum
+    - The central potential Hamiltonian
+  - Algebraic theory of angular momentum
+  - Comments on spherical harmonics
+  - The radial equation
+  - The free particle and the inﬁnite spherical well
+    - Free particle
+    - The inﬁnite spherical well
+  - The three-dimensional isotropic oscillator
+  - Hydrogen atom and Runge-Lenz vector
+- [Notes - ADDITION OF ANGULAR MOMENTUM - MIT8_05F13_Chap_10.pdf](pdf/MIT8_05F13_Chap_10.pdf)
+  - Adding apples to oranges?
+  - Adding two spin one-half angular momenta
+  - Feynman-Hellman lemma
+  - Hyperﬁne splitting
+  - Spin-Orbit coupling
+    - The physical interaction
+    - Complete set of observables
+    - Level plitting
+    - Computation of $1 \otimes \frac{1}{2}$
+  - General aspects of addition of angular momentum
+  - Hydrogen atom and hidden symmetry
+
+
 ## Week 0
 
 ### Introductory Quantum Mechanics Review
