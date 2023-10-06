@@ -148,9 +148,11 @@ publish: true
 
 ### Lecture 11: Coherent States
 
+- [Completeness relation for coherent states - cheatsheet 1](img/img-10-1.png)
+
 #### Book
 
-- [Book - 17.1 - Dynamics of QUantum Systems](pdf/book-17-1.pdf)
+- [Book - 17.1 - Dynamics of Quantum Systems](pdf/book-17-1.pdf)
 - [Book - 17.2 - Heisenberg Picture for Coherent States](pdf/book-17-2.pdf)
 - [Book - 17.3 - General Coherent States](pdf/book-17-3.pdf)
 

@@ -332,3 +332,10 @@ function.
           
         \end{equation*}
     $$
+
+- Integral of Gamma function
+
+    $$ \begin{equation*}
+          \int_0^\infty e^{-u} u^n \, du = n!
+        \end{equation*}
+    $$
