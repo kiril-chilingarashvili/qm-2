@@ -44,9 +44,9 @@ publish: true
   - Complete Set of Commuting Observables
 - [Notes - QUANTUM DYNAMICS - MIT8_05F13_Chap_06.pdf](pdf/MIT8_05F13_Chap_06.pdf)
   - Harmonic oscillator
-  - Schr¨odinger dynamics
+  - Schrodinger dynamics
     - Unitary time evolution
-    - Deriving the Schr¨odinger equation
+    - Deriving the Schrodinger equation
     - Calculation of the unitary time evolution operator
   - Heisenberg dynamics
     - Heisenberg operators

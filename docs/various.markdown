@@ -352,3 +352,30 @@ function.
           \operatorname{tr}\left( \ket{u}\bra{v} \right) = \braket{v | u}
         \end{equation*}
     $$
+
+- Squeezed vacuum states
+
+    $$ \begin{equation*}
+          \begin{aligned}
+            & H_1=\frac{p^2}{2 m_1}+\frac{1}{2} m_1 \omega_1^2 x^2 \\ 
+            & \Delta x=\sqrt{\frac{\hbar}{2 m_1 \omega_1}} \\
+            & \Delta p=\sqrt{\frac{\hbar m_1 \omega_1}{2}} \\
+            & \Delta x=\sqrt{\frac{m_2 \omega_2}{m_1 \omega_1}} \sqrt{\frac{\hbar}{2 m_2 \omega_2}} = e^{-\gamma} \sqrt{\frac{\hbar}{2 m_2 \omega_2}} \\
+            & \Delta p=\sqrt{\frac{m_1 \omega_1}{m_2 \omega_2}} \sqrt{\frac{\hbar m_2 \omega_2}{2}} = e^\gamma \sqrt{\frac{\hbar m_2 \omega_2}{2}} \\
+            & e^\gamma \equiv \sqrt{\frac{m_1 \omega_1}{m_2 \omega_2}} \\
+            & \hat{a}_1=\hat{a}_2 \cosh \gamma+\hat{a}_2^{\dagger} \sinh \gamma \\
+            & \hat{a}_1^{\dagger}=\hat{a}_2 \sinh \gamma+\hat{a}_2^{\dagger} \cosh \gamma \\
+            & \hat{a}_2=\hat{a}_1 \cosh \gamma-\hat{a}_1^{\dagger} \sinh \gamma \\
+            & \hat{a}_2^{\dagger}=-\hat{a}_1 \sinh \gamma+\hat{a}_1^{\dagger} \cosh \gamma \\
+            & |0\rangle_{(1)}= N (\gamma) \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)|0\rangle_{(2)} \\
+            & N (\gamma)=\frac{1}{\sqrt{\cosh \gamma}} \\
+            & |0\rangle_{(1)}=\frac{1}{\sqrt{\cosh \gamma}} \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)|0\rangle_{(2)} \\
+            & \left|0_{\infty} \right \rangle \sim \exp \left(-\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)|0 \rangle \\
+            & \left|0_{-\infty}\right\rangle \sim \exp \left(\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)|0\rangle \\
+            & \hat{x}|x\rangle=\sqrt{\frac{\hbar}{2 m \omega}}\left(\hat{a}+\hat{a}^{\dagger}\right)|x\rangle=x|x\rangle \\
+            & D(\alpha)=\exp \left(\alpha \hat{a}^{\dagger}-\alpha^* \hat{a}\right), \quad|\alpha\rangle=D(\alpha)|0\rangle \\
+            & \left|0_\gamma\right\rangle=S(\gamma)|0\rangle, \quad \text { with } \quad S(\gamma)=\exp \left(-\frac{\gamma}{2}\left(\hat{a}^{\dagger} \hat{a}^{\dagger}-\hat{a} \hat{a}\right)\right) \\
+            & |\alpha, \gamma\rangle \equiv D(\alpha) S(\gamma)|0\rangle
+            \end{aligned}
+        \end{equation*}
+    $$
