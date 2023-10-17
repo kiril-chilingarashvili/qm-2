@@ -101,6 +101,10 @@ publish: true
   - General aspects of addition of angular momentum
   - Hydrogen atom and hidden symmetry
 
+## Tests:
+
+- [Test 1](pdf/MIT8_05F13_test_2013_v3.pdf)
+- [Test 2](pdf/MIT8_05F13_final_2013.pdf)
 
 ## Week 0
 
