@@ -283,3 +283,7 @@ publish: true
 - [Book - 18.2 - Operators on the Tensor Product Space](pdf/book-18-2.pdf)
 - [Book - 18.3 - Inner Products for Tensor Spaces](pdf/book-18-3.pdf)
 - [Book - 18.5 - Entangled States](pdf/book-18-5.pdf)
+
+## Exam 1
+
+- [Formula sheet](pdf/805x_formula_sheet_1.pdf)
