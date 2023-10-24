@@ -383,3 +383,35 @@ function.
 - Bell states
 
     $\begin{aligned} & \left|\Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle+|-\rangle|-\rangle) \\ & \left|\Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|-\rangle+|-\rangle|+\rangle) \\ & \left|\Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left|\Phi_0\right\rangle=\frac{i}{\sqrt{2}}(|+\rangle|-\rangle-|-\rangle|+\rangle) \\ & \left|\Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle-|-\rangle|-\rangle)\end{aligned}$
+
+- Spins
+
+    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } & =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } & =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } & =i \hbar \hat{S}_y\end{aligned}$
+
+    $\hat{S}_x=\frac{\hbar}{2}\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \hat{S}_y=\frac{\hbar}{2}\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \hat{S}_z=\frac{\hbar}{2}\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
+
+    $\sigma_1=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \sigma_2=\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \sigma_3=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
+
+    $\begin{aligned} & |z:+\rangle=|1\rangle \longleftrightarrow\left(\begin{array}{l}1 \\ 0\end{array}\right) \\ & |z:-\rangle=|2\rangle \longleftrightarrow\left(\begin{array}{l}0 \\ 1\end{array}\right)\end{aligned}$
+
+    $\langle z ;-\mid z ;+\rangle=0, \quad\langle z ;+\mid z ;+\rangle=1$
+
+    $\langle z ;+\mid z ;-\rangle=0, \quad\langle z ;-\mid z ;-\rangle=1$
+
+    $\begin{aligned} & |\alpha\rangle=\alpha_1|1\rangle+\alpha_2|2\rangle \longleftrightarrow\left(\begin{array}{l}\alpha_1 \\ \alpha_2\end{array}\right) \\ & |\beta\rangle=\beta_1|1\rangle+\beta_2|2\rangle \longleftrightarrow\left(\begin{array}{l}\beta_1 \\ \beta_2\end{array}\right)\end{aligned}$
+
+    $\begin{aligned} & |x ;+\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle+\frac{1}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1\end{array}\right), \\ & |x ;-\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle-\frac{1}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -1\end{array}\right),\end{aligned}$
+
+    $\begin{aligned} & |z ;+\rangle=\frac{1}{\sqrt{2}}|x ;+\rangle+\frac{1}{\sqrt{2}}|x ;-\rangle \\ & |z ;-\rangle=\frac{1}{\sqrt{2}}|x ;+\rangle-\frac{1}{\sqrt{2}}|x ;-\rangle\end{aligned}$
+
+    $\begin{aligned} & |y ;+\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle+\frac{i}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ i\end{array}\right), \\ & |y ;-\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle-\frac{i}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -i\end{array}\right) .\end{aligned}$
+
+    $\left(\sigma_1\right)^2=\left(\sigma_2\right)^2=\left(\sigma_3\right)^2=\mathbf{1}$
+
+    $\operatorname{tr}\left(\sigma_i\right)=0, \quad i=1,2,3$
+
+    $(\mathbf{a} \cdot \boldsymbol{\sigma})(\mathbf{b} \cdot \boldsymbol{\sigma})=(\mathbf{a} \cdot \mathbf{b}) \mathbf{1}+i(\mathbf{a} \times \mathbf{b}) \cdot \boldsymbol{\sigma}$
+
+    $\begin{aligned} & |\mathbf{n} ;+\rangle=\cos \frac{\theta}{2}|+\rangle+\sin \frac{\theta}{2} e^{i \phi}|-\rangle \\ & |\mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}|+\rangle+\cos \frac{\theta}{2}|-\rangle\end{aligned}$
+
+    
