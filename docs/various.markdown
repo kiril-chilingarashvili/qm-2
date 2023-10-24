@@ -379,3 +379,7 @@ function.
             \end{aligned}
         \end{equation*}
     $$
+
+- Bell states
+
+    $\begin{aligned} & \left|\Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle+|-\rangle|-\rangle) \\ & \left|\Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|-\rangle+|-\rangle|+\rangle) \\ & \left|\Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left|\Phi_0\right\rangle=\frac{i}{\sqrt{2}}(|+\rangle|-\rangle-|-\rangle|+\rangle) \\ & \left|\Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle-|-\rangle|-\rangle)\end{aligned}$
