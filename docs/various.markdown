@@ -32,7 +32,7 @@ publish: true
 - Identity:
 
     $$ \begin{equation*}
-          \braket{x | p} = \frac{e^{ipx}}{\sqrt{2\pi \hbar}}
+          \braket{x \mid  p} = \frac{e^{ipx}}{\sqrt{2\pi \hbar}}
         \end{equation*}
     $$
 
@@ -55,7 +55,7 @@ publish: true
                   & = & \displaystyle \ket{x_1 + x_0} \\
                 \displaystyle T_{x_0}^\dagger \ket{x_1} 
                     & = & \displaystyle \ket{x_1 - x_0} \\
-                \displaystyle \bra{x_1 | T_{x_0}} 
+                \displaystyle \bra{x_1 \mid  T_{x_0}} 
                     & = & \displaystyle \bra{x_1 - x_0} \\
             \end{array}
           
@@ -65,8 +65,8 @@ publish: true
     $$ \begin{equation*}
           
             \begin{array} {rcl}
-              \displaystyle T_{x_0} \braket{x| T_{x_0}|\psi} 
-                  & = & \displaystyle \braket{x - x_0 | \psi} \\
+              \displaystyle T_{x_0} \braket{x\mid  T_{x_0}\mid \psi} 
+                  & = & \displaystyle \braket{x - x_0 \mid  \psi} \\
                   & = & \displaystyle \psi(x - x_0) \\
             \end{array}
           
@@ -85,11 +85,11 @@ publish: true
     The wave function $\psi_{x_0}$ associated to the coherent state is easily obtained:
 
     $$ \begin{equation*}
-          \psi_{x_0}(x) = \braket{x | x_0}_c = \braket{x|T_{x_0}|0} = \braket{x - x_0 | 0} = \varphi_0(x - x_0)
+          \psi_{x_0}(x) = \braket{x \mid  x_0}_c = \braket{x\mid T_{x_0}\mid 0} = \braket{x - x_0 \mid  0} = \varphi_0(x - x_0)
         \end{equation*}
     $$
 
-    where we used $\braket{x|0} = \varphi_0(x)$ is the ground state wave
+    where we used $\braket{x\mid 0} = \varphi_0(x)$ is the ground state wave
 function.
 
     Expectations in a coherent state:
@@ -97,17 +97,17 @@ function.
     $$ \begin{equation*}
           
             \begin{array} {rcl}
-              \displaystyle {}_{c}\braket{x_0|\hat{x}|x_0}_c 
+              \displaystyle {}_{c}\braket{x_0\mid \hat{x}\mid x_0}_c 
                   & = & \displaystyle x_0 \\
-              \displaystyle {}_{c}\braket{x_0|\hat{p}|x_0}_c 
+              \displaystyle {}_{c}\braket{x_0\mid \hat{p}\mid x_0}_c 
                   & = & 0 \\
-              \displaystyle {}_{c}\braket{x_0|\hat{H}|x_0}_c
+              \displaystyle {}_{c}\braket{x_0\mid \hat{H}\mid x_0}_c
                   & = & \displaystyle \frac{1}{2} \hbar \omega + \frac{1}{2} m \omega^2 x_0^2 \\
-              \displaystyle {}_{c}\braket{x_0|\hat{x}^2|x_0}_c
+              \displaystyle {}_{c}\braket{x_0\mid \hat{x}^2\mid x_0}_c
                   & = & \displaystyle x_0^2 + \frac{\hbar}{2 m \omega}  \\
-              \displaystyle {}_{c}\braket{x_0|\hat{p}^2|x_0}_c
+              \displaystyle {}_{c}\braket{x_0\mid \hat{p}^2\mid x_0}_c
                   & = & \displaystyle  \frac{m\hbar\omega}{2}  \\
-              \displaystyle {}_{c}\braket{x_0|\hat{x}\hat{p}+\hat{p}\hat{x}|x_0}_c
+              \displaystyle {}_{c}\braket{x_0\mid \hat{x}\hat{p}+\hat{p}\hat{x}\mid x_0}_c
                   & = & 0  \\
                   
 
@@ -122,9 +122,9 @@ function.
           
             \begin{array} {rcl}
               \displaystyle \braket{\hat{x}}_{x_0}(t) 
-                  & = & \displaystyle {}_{c}\braket{x_0, t | \hat{x} | x_0, t}_c \\
-                  & = & \displaystyle {}_c\braket{x_0 | \hat{x}_H(t) | x_0}_c \\
-                  & = & \displaystyle {}_c\braket{x_0 | \left( \hat{x} \cos \omega t + \frac{1}{m\omega} \hat{p} \sin \omega t \right)  | x_0 } {}_c \\
+                  & = & \displaystyle {}_{c}\braket{x_0, t \mid  \hat{x} \mid  x_0, t}_c \\
+                  & = & \displaystyle {}_c\braket{x_0 \mid  \hat{x}_H(t) \mid  x_0}_c \\
+                  & = & \displaystyle {}_c\braket{x_0 \mid  \left( \hat{x} \cos \omega t + \frac{1}{m\omega} \hat{p} \sin \omega t \right)  \mid  x_0 } {}_c \\
                   & = & \displaystyle x_0 \cos \omega t
 
                   \\ \\ 
@@ -243,7 +243,7 @@ function.
     Probability $P_n$ of finding the energy $\displaystyle E_n = \hbar \omega \left( n+\frac{1}{2} \right) $:
 
     $$ \begin{equation*}
-          P_n = |c_n|^2 = \exp \left( -\frac{1}{2} \frac{x_0^2}{L_0^2} \right) \frac{1}{n!} \left( \frac{x_0^2}{2L_o^2} \right)^n
+          P_n = \mid c_n\mid ^2 = \exp \left( -\frac{1}{2} \frac{x_0^2}{L_0^2} \right) \frac{1}{n!} \left( \frac{x_0^2}{2L_o^2} \right)^n
         \end{equation*}
     $$
 
@@ -309,12 +309,12 @@ function.
                 \displaystyle \hat{a}\ket{\alpha} 
                     & = & \displaystyle \alpha \ket{\alpha} \\ \\
                     
-                \displaystyle \braket{\alpha|\hat{x}|\alpha} 
+                \displaystyle \braket{\alpha\mid \hat{x}\mid \alpha} 
                     & = & \displaystyle L_0 \sqrt{2} \operatorname{Re}(\alpha) \\
                 \displaystyle \implies \operatorname{Re}(\alpha)
                     & = & \displaystyle \frac{1}{\sqrt{2}} \frac{\braket{\hat{x}}_\alpha}{L_0} \\ \\
                     
-                \displaystyle \braket{\alpha|\hat{p}|\alpha} 
+                \displaystyle \braket{\alpha\mid \hat{p}\mid \alpha} 
                     & = & \displaystyle \sqrt{2} \frac{\hbar}{L_0} \operatorname{Im}(\alpha) \\
                 \displaystyle \implies \operatorname{Im}(\alpha)
                     & = & \displaystyle \frac{1}{\sqrt{2}} \frac{L_0}{\hbar} \braket{\hat{p}}_\alpha \\ \\
@@ -349,7 +349,7 @@ function.
 - Property of a trace:
 
     $$ \begin{equation*}
-          \operatorname{tr}\left( \ket{u}\bra{v} \right) = \braket{v | u}
+          \operatorname{tr}\left( \ket{u}\bra{v} \right) = \braket{v \mid  u}
         \end{equation*}
     $$
 
@@ -367,22 +367,22 @@ function.
             & \hat{a}_1^{\dagger}=\hat{a}_2 \sinh \gamma+\hat{a}_2^{\dagger} \cosh \gamma \\
             & \hat{a}_2=\hat{a}_1 \cosh \gamma-\hat{a}_1^{\dagger} \sinh \gamma \\
             & \hat{a}_2^{\dagger}=-\hat{a}_1 \sinh \gamma+\hat{a}_1^{\dagger} \cosh \gamma \\
-            & |0\rangle_{(1)}= N (\gamma) \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)|0\rangle_{(2)} \\
+            & \mid 0\rangle_{(1)}= N (\gamma) \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)\mid 0\rangle_{(2)} \\
             & N (\gamma)=\frac{1}{\sqrt{\cosh \gamma}} \\
-            & |0\rangle_{(1)}=\frac{1}{\sqrt{\cosh \gamma}} \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)|0\rangle_{(2)} \\
-            & \left|0_{\infty} \right \rangle \sim \exp \left(-\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)|0 \rangle \\
-            & \left|0_{-\infty}\right\rangle \sim \exp \left(\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)|0\rangle \\
-            & \hat{x}|x\rangle=\sqrt{\frac{\hbar}{2 m \omega}}\left(\hat{a}+\hat{a}^{\dagger}\right)|x\rangle=x|x\rangle \\
-            & D(\alpha)=\exp \left(\alpha \hat{a}^{\dagger}-\alpha^* \hat{a}\right), \quad|\alpha\rangle=D(\alpha)|0\rangle \\
-            & \left|0_\gamma\right\rangle=S(\gamma)|0\rangle, \quad \text { with } \quad S(\gamma)=\exp \left(-\frac{\gamma}{2}\left(\hat{a}^{\dagger} \hat{a}^{\dagger}-\hat{a} \hat{a}\right)\right) \\
-            & |\alpha, \gamma\rangle \equiv D(\alpha) S(\gamma)|0\rangle
+            & \mid 0\rangle_{(1)}=\frac{1}{\sqrt{\cosh \gamma}} \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)\mid 0\rangle_{(2)} \\
+            & \left\mid 0_{\infty} \right \rangle \sim \exp \left(-\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0 \rangle \\
+            & \left\mid 0_{-\infty}\right\rangle \sim \exp \left(\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0\rangle \\
+            & \hat{x}\mid x\rangle=\sqrt{\frac{\hbar}{2 m \omega}}\left(\hat{a}+\hat{a}^{\dagger}\right)\mid x\rangle=x\mid x\rangle \\
+            & D(\alpha)=\exp \left(\alpha \hat{a}^{\dagger}-\alpha^* \hat{a}\right), \quad\mid \alpha\rangle=D(\alpha)\mid 0\rangle \\
+            & \left\mid 0_\gamma\right\rangle=S(\gamma)\mid 0\rangle, \quad \text { with } \quad S(\gamma)=\exp \left(-\frac{\gamma}{2}\left(\hat{a}^{\dagger} \hat{a}^{\dagger}-\hat{a} \hat{a}\right)\right) \\
+            & \mid \alpha, \gamma\rangle \equiv D(\alpha) S(\gamma)\mid 0\rangle
             \end{aligned}
         \end{equation*}
     $$
 
 - Bell states
 
-    $\begin{aligned} & \left|\Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle+|-\rangle|-\rangle) \\ & \left|\Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|-\rangle+|-\rangle|+\rangle) \\ & \left|\Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left|\Phi_0\right\rangle=\frac{i}{\sqrt{2}}(|+\rangle|-\rangle-|-\rangle|+\rangle) \\ & \left|\Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left|\Phi_0\right\rangle=\frac{1}{\sqrt{2}}(|+\rangle|+\rangle-|-\rangle|-\rangle)\end{aligned}$
+    $\begin{aligned} & \left\mid \Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \left\mid \Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \left\mid \Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left\mid \Phi_0\right\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \left\mid \Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
 
 - Spins
 
@@ -392,19 +392,19 @@ function.
 
     $\sigma_1=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \sigma_2=\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \sigma_3=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
 
-    $\begin{aligned} & |z:+\rangle=|1\rangle \longleftrightarrow\left(\begin{array}{l}1 \\ 0\end{array}\right) \\ & |z:-\rangle=|2\rangle \longleftrightarrow\left(\begin{array}{l}0 \\ 1\end{array}\right)\end{aligned}$
+    $\begin{aligned} & \mid z:+\rangle=\mid 1\rangle \longleftrightarrow\left(\begin{array}{l}1 \\ 0\end{array}\right) \\ & \mid z:-\rangle=\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}0 \\ 1\end{array}\right)\end{aligned}$
 
     $\langle z ;-\mid z ;+\rangle=0, \quad\langle z ;+\mid z ;+\rangle=1$
 
     $\langle z ;+\mid z ;-\rangle=0, \quad\langle z ;-\mid z ;-\rangle=1$
 
-    $\begin{aligned} & |\alpha\rangle=\alpha_1|1\rangle+\alpha_2|2\rangle \longleftrightarrow\left(\begin{array}{l}\alpha_1 \\ \alpha_2\end{array}\right) \\ & |\beta\rangle=\beta_1|1\rangle+\beta_2|2\rangle \longleftrightarrow\left(\begin{array}{l}\beta_1 \\ \beta_2\end{array}\right)\end{aligned}$
+    $\begin{aligned} & \mid \alpha\rangle=\alpha_1\mid 1\rangle+\alpha_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\alpha_1 \\ \alpha_2\end{array}\right) \\ & \mid \beta\rangle=\beta_1\mid 1\rangle+\beta_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\beta_1 \\ \beta_2\end{array}\right)\end{aligned}$
 
-    $\begin{aligned} & |x ;+\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle+\frac{1}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1\end{array}\right), \\ & |x ;-\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle-\frac{1}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -1\end{array}\right),\end{aligned}$
+    $\begin{aligned} & \mid x ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1\end{array}\right), \\ & \mid x ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -1\end{array}\right),\end{aligned}$
 
-    $\begin{aligned} & |z ;+\rangle=\frac{1}{\sqrt{2}}|x ;+\rangle+\frac{1}{\sqrt{2}}|x ;-\rangle \\ & |z ;-\rangle=\frac{1}{\sqrt{2}}|x ;+\rangle-\frac{1}{\sqrt{2}}|x ;-\rangle\end{aligned}$
+    $\begin{aligned} & \mid z ;+\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle+\frac{1}{\sqrt{2}}\mid x ;-\rangle \\ & \mid z ;-\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle-\frac{1}{\sqrt{2}}\mid x ;-\rangle\end{aligned}$
 
-    $\begin{aligned} & |y ;+\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle+\frac{i}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ i\end{array}\right), \\ & |y ;-\rangle=\frac{1}{\sqrt{2}}|z ;+\rangle-\frac{i}{\sqrt{2}}|z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -i\end{array}\right) .\end{aligned}$
+    $\begin{aligned} & \mid y ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ i\end{array}\right), \\ & \mid y ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -i\end{array}\right) .\end{aligned}$
 
     $\left(\sigma_1\right)^2=\left(\sigma_2\right)^2=\left(\sigma_3\right)^2=\mathbf{1}$
 
@@ -412,6 +412,6 @@ function.
 
     $(\mathbf{a} \cdot \boldsymbol{\sigma})(\mathbf{b} \cdot \boldsymbol{\sigma})=(\mathbf{a} \cdot \mathbf{b}) \mathbf{1}+i(\mathbf{a} \times \mathbf{b}) \cdot \boldsymbol{\sigma}$
 
-    $\begin{aligned} & |\mathbf{n} ;+\rangle=\cos \frac{\theta}{2}|+\rangle+\sin \frac{\theta}{2} e^{i \phi}|-\rangle \\ & |\mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}|+\rangle+\cos \frac{\theta}{2}|-\rangle\end{aligned}$
+    $\begin{aligned} & \mid \mathbf{n} ;+\rangle=\cos \frac{\theta}{2}\mid +\rangle+\sin \frac{\theta}{2} e^{i \phi}\mid -\rangle \\ & \mid \mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}\mid +\rangle+\cos \frac{\theta}{2}\mid -\rangle\end{aligned}$
 
     
