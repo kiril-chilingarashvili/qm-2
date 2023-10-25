@@ -382,11 +382,11 @@ function.
 
 - Bell states
 
-    $\begin{aligned} & \left| \Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \left| \Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \left| \Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left| \Phi_0\right\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \left| \Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
+    $\begin{aligned} & \mid \Phi_0\rangle=\mathbf{1} \otimes \mathbf{1}\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \mid \Phi_1\rangle=\mathbf{1} \otimes \sigma_1\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \mid \Phi_2\rangle=\mathbf{1} \otimes \sigma_2\mid \Phi_0\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \mid \Phi_3\rangle=\mathbf{1} \otimes \sigma_3\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
 
 - Spins
 
-    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } =i \hbar \hat{S}_y\end{aligned}$
+    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } & =i \hbar \hat{S}_y\end{aligned}$
 
     $$ \begin{equation*}
             \begin{aligned} \hat{S}_x=\frac{\hbar}{2}\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \hat{S}_y=\frac{\hbar}{2}\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \hat{S}_z=\frac{\hbar}{2}\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right) \end{aligned}
