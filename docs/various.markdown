@@ -370,11 +370,11 @@ function.
             & \mid 0\rangle_{(1)}= N (\gamma) \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)\mid 0\rangle_{(2)} \\
             & N (\gamma)=\frac{1}{\sqrt{\cosh \gamma}} \\
             & \mid 0\rangle_{(1)}=\frac{1}{\sqrt{\cosh \gamma}} \exp \left(-\frac{1}{2} \tanh \gamma \hat{a}_2^{\dagger} \hat{a}_2^{\dagger}\right)\mid 0\rangle_{(2)} \\
-            & \left\mid 0_{\infty} \right \rangle \sim \exp \left(-\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0 \rangle \\
-            & \left\mid 0_{-\infty}\right\rangle \sim \exp \left(\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0\rangle \\
+            & \left| 0_{\infty} \right \rangle \sim \exp \left(-\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0 \rangle \\
+            & \left| 0_{-\infty}\right\rangle \sim \exp \left(\frac{1}{2} \hat{a}^{\dagger} \hat{a}^{\dagger}\right)\mid 0\rangle \\
             & \hat{x}\mid x\rangle=\sqrt{\frac{\hbar}{2 m \omega}}\left(\hat{a}+\hat{a}^{\dagger}\right)\mid x\rangle=x\mid x\rangle \\
             & D(\alpha)=\exp \left(\alpha \hat{a}^{\dagger}-\alpha^* \hat{a}\right), \quad\mid \alpha\rangle=D(\alpha)\mid 0\rangle \\
-            & \left\mid 0_\gamma\right\rangle=S(\gamma)\mid 0\rangle, \quad \text { with } \quad S(\gamma)=\exp \left(-\frac{\gamma}{2}\left(\hat{a}^{\dagger} \hat{a}^{\dagger}-\hat{a} \hat{a}\right)\right) \\
+            & \left| 0_\gamma\right\rangle=S(\gamma)\mid 0\rangle, \quad \text { with } \quad S(\gamma)=\exp \left(-\frac{\gamma}{2}\left(\hat{a}^{\dagger} \hat{a}^{\dagger}-\hat{a} \hat{a}\right)\right) \\
             & \mid \alpha, \gamma\rangle \equiv D(\alpha) S(\gamma)\mid 0\rangle
             \end{aligned}
         \end{equation*}
@@ -382,7 +382,7 @@ function.
 
 - Bell states
 
-    $\begin{aligned} & \left\mid \Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \left\mid \Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \left\mid \Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left\mid \Phi_0\right\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \left\mid \Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left\mid \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
+    $\begin{aligned} & \left| \Phi_0\right\rangle=\mathbf{1} \otimes \mathbf{1}\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \left| \Phi_1\right\rangle=\mathbf{1} \otimes \sigma_1\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \left| \Phi_2\right\rangle=\mathbf{1} \otimes \sigma_2\left| \Phi_0\right\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \left| \Phi_3\right\rangle=\mathbf{1} \otimes \sigma_3\left| \Phi_0\right\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
 
 - Spins
 
