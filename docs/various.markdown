@@ -382,41 +382,47 @@ function.
 
 - Bell states
 
-    $\begin{aligned} & \mid \Phi_0\rangle=\mathbf{1} \otimes \mathbf{1}\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \mid \Phi_1\rangle=\mathbf{1} \otimes \sigma_1\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \mid \Phi_2\rangle=\mathbf{1} \otimes \sigma_2\mid \Phi_0\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \mid \Phi_3\rangle=\mathbf{1} \otimes \sigma_3\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$
+    $$\begin{aligned} & \mid \Phi_0\rangle=\mathbf{1} \otimes \mathbf{1}\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle+\mid -\rangle\mid -\rangle) \\ & \mid \Phi_1\rangle=\mathbf{1} \otimes \sigma_1\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid -\rangle+\mid -\rangle\mid +\rangle) \\ & \mid \Phi_2\rangle=\mathbf{1} \otimes \sigma_2\mid \Phi_0\rangle=\frac{i}{\sqrt{2}}(\mid +\rangle\mid -\rangle-\mid -\rangle\mid +\rangle) \\ & \mid \Phi_3\rangle=\mathbf{1} \otimes \sigma_3\mid \Phi_0\rangle=\frac{1}{\sqrt{2}}(\mid +\rangle\mid +\rangle-\mid -\rangle\mid -\rangle)\end{aligned}$$
 
 - Spins
 
-    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } =i \hbar \hat{S}_y\end{aligned}$
+    $$
+        \begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } =i \hbar \hat  {S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } =i \hbar \hat{S}_x \\   {\left[\hat{S}_z, \hat{S}_x\right] } =i \hbar \hat{S}_y\end{aligned}
+    $$
 
     $$ \begin{equation*}
             \begin{aligned} \hat{S}_x=\frac{\hbar}{2}\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \hat{S}_y=\frac{\hbar}{2}\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \hat{S}_z=\frac{\hbar}{2}\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right) \end{aligned}
         \end{equation*}
     $$
 
-    $\sigma_1=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \sigma_2=\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \sigma_3=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
+    $$
+        \begin{equation*}
+        \sigma_1=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \sigma_2=\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \sigma_3=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)
+        \end{equation*}
+    $$
 
-    $\begin{aligned} & \mid z:+\rangle=\mid 1\rangle \longleftrightarrow\left(\begin{array}{l}1 \\ 0\end{array}\right) \\ & \mid z:-\rangle=\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}0 \\ 1\end{array}\right)\end{aligned}$
+    $$\begin{aligned} & \mid z:+\rangle=\mid 1\rangle \longleftrightarrow\left(\begin{array}{l}1 \\ 0\end{array}\right) \\ & \mid z:-\rangle=\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}0 \\ 1\end{array}\right)\end{aligned}$$
 
-    $\langle z ;-\mid z ;+\rangle=0, \quad\langle z ;+\mid z ;+\rangle=1$
+    $$\langle z ;-\mid z ;+\rangle=0, \quad\langle z ;+\mid z ;+\rangle=1$$
 
-    $\langle z ;+\mid z ;-\rangle=0, \quad\langle z ;-\mid z ;-\rangle=1$
+    $$\langle z ;+\mid z ;-\rangle=0, \quad\langle z ;-\mid z ;-\rangle=1$$
 
-    $\begin{aligned} & \mid \alpha\rangle=\alpha_1\mid 1\rangle+\alpha_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\alpha_1 \\ \alpha_2\end{array}\right) \\ & \mid \beta\rangle=\beta_1\mid 1\rangle+\beta_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\beta_1 \\ \beta_2\end{array}\right)\end{aligned}$
+    $$\begin{aligned} & \mid \alpha\rangle=\alpha_1\mid 1\rangle+\alpha_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\alpha_1 \\ \alpha_2\end{array}\right) \\ & \mid \beta\rangle=\beta_1\mid 1\rangle+\beta_2\mid 2\rangle \longleftrightarrow\left(\begin{array}{l}\beta_1 \\ \beta_2\end{array}\right)\end{aligned}$$
 
-    $\begin{aligned} & \mid x ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1\end{array}\right), \\ & \mid x ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -1\end{array}\right),\end{aligned}$
+    $$\begin{aligned} & \mid x ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ 1\end{array}\right), \\ & \mid x ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{1}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -1\end{array}\right),\end{aligned}$$
 
-    $\begin{aligned} & \mid z ;+\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle+\frac{1}{\sqrt{2}}\mid x ;-\rangle \\ & \mid z ;-\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle-\frac{1}{\sqrt{2}}\mid x ;-\rangle\end{aligned}$
+    $$\begin{aligned} & \mid z ;+\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle+\frac{1}{\sqrt{2}}\mid x ;-\rangle \\ & \mid z ;-\rangle=\frac{1}{\sqrt{2}}\mid x ;+\rangle-\frac{1}{\sqrt{2}}\mid x ;-\rangle\end{aligned}$$
 
-    $\begin{aligned} & \mid y ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ i\end{array}\right), \\ & \mid y ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -i\end{array}\right) .\end{aligned}$
+    $$\begin{aligned} & \mid y ;+\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle+\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ i\end{array}\right), \\ & \mid y ;-\rangle=\frac{1}{\sqrt{2}}\mid z ;+\rangle-\frac{i}{\sqrt{2}}\mid z ;-\rangle \longleftrightarrow \frac{1}{\sqrt{2}}\left(\begin{array}{c}1 \\ -i\end{array}\right) .\end{aligned}$$
 
-    $\left(\sigma_1\right)^2=\left(\sigma_2\right)^2=\left(\sigma_3\right)^2=\mathbf{1}$
+    $$\left(\sigma_1\right)^2=\left(\sigma_2\right)^2=\left(\sigma_3\right)^2=\mathbf{1}$$
 
-    $\operatorname{tr}\left(\sigma_i\right)=0, \quad i=1,2,3$
+    $$\operatorname{tr}\left(\sigma_i\right)=0, \quad i=1,2,3$$
 
-    $(\mathbf{a} \cdot \boldsymbol{\sigma})(\mathbf{b} \cdot \boldsymbol{\sigma})=(\mathbf{a} \cdot \mathbf{b}) \mathbf{1}+i(\mathbf{a} \times \mathbf{b}) \cdot \boldsymbol{\sigma}$
+    $$(\mathbf{a} \cdot \boldsymbol{\sigma})(\mathbf{b} \cdot \boldsymbol{\sigma})=(\mathbf{a} \cdot \mathbf{b}) \mathbf{1}+i(\mathbf{a} \times \mathbf{b}) \cdot \boldsymbol{\sigma}$$
 
-    $\begin{aligned} & \mid \mathbf{n} ;+\rangle=\cos \frac{\theta}{2}\mid +\rangle+\sin \frac{\theta}{2} e^{i \phi}\mid -\rangle \\ & \mid \mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}\mid +\rangle+\cos \frac{\theta}{2}\mid -\rangle\end{aligned}$
+    $$\begin{aligned} & \mid \mathbf{n} ;+\rangle=\cos \frac{\theta}{2}\mid +\rangle+\sin \frac{\theta}{2} e^{i \phi}\mid -\rangle \\ & \mid \mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}\mid +\rangle+\cos \frac{\theta}{2}\mid -\rangle\end{aligned}$$
 
 - Swap operator
 
-    $F=\frac{1}{2}\left(1 \otimes 1+\sum_{i=1}^3 \sigma_i \otimes \sigma_i\right)$
+    $$F=\frac{1}{2}\left(1 \otimes 1+\sum_{i=1}^3 \sigma_i \otimes \sigma_i\right)$$
