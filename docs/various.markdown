@@ -386,9 +386,12 @@ function.
 
 - Spins
 
-    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } & =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } & =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } & =i \hbar \hat{S}_y\end{aligned}$
+    $\begin{aligned} {\left[\hat{S}_x, \hat{S}_y\right] } =i \hbar \hat{S}_z \\ {\left[\hat{S}_y, \hat{S}_z\right] } =i \hbar \hat{S}_x \\ {\left[\hat{S}_z, \hat{S}_x\right] } =i \hbar \hat{S}_y\end{aligned}$
 
-    $\hat{S}_x=\frac{\hbar}{2}\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \hat{S}_y=\frac{\hbar}{2}\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \hat{S}_z=\frac{\hbar}{2}\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
+    $$ \begin{equation*}
+            \begin{aligned} \hat{S}_x=\frac{\hbar}{2}\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \hat{S}_y=\frac{\hbar}{2}\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \hat{S}_z=\frac{\hbar}{2}\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right) \end{aligned}
+        \end{equation*}
+    $$
 
     $\sigma_1=\left(\begin{array}{ll}0 & 1 \\ 1 & 0\end{array}\right), \quad \sigma_2=\left(\begin{array}{cc}0 & -i \\ i & 0\end{array}\right), \quad \sigma_3=\left(\begin{array}{cc}1 & 0 \\ 0 & -1\end{array}\right)$
 
