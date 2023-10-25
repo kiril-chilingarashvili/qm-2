@@ -417,4 +417,6 @@ function.
 
     $\begin{aligned} & \mid \mathbf{n} ;+\rangle=\cos \frac{\theta}{2}\mid +\rangle+\sin \frac{\theta}{2} e^{i \phi}\mid -\rangle \\ & \mid \mathbf{n} ;-\rangle=-\sin \frac{\theta}{2} e^{-i \phi}\mid +\rangle+\cos \frac{\theta}{2}\mid -\rangle\end{aligned}$
 
-    
+- Swap operator
+
+    $F=\frac{1}{2}\left(1 \otimes 1+\sum_{i=1}^3 \sigma_i \otimes \sigma_i\right)$
