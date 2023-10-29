@@ -291,3 +291,44 @@ publish: true
 ## Exam 1
 
 - [Formula sheet](pdf/805x_formula_sheet_1.pdf)
+
+### Lecture 14: Multiparticle States
+
+#### Book
+
+- [Book - 18.6 - aaa](pdf/book-18.6.pdf)
+- [Book - 18.7 - aaa](pdf/book-18.7.pdf)
+- [Book - 18.8 - aaa](pdf/book-18.8.pdf)
+
+### Tutorial on Measurement
+
+#### Notes
+
+- [Measurement - cheatsheet 1](img/img-14-1.png)
+- [Measurement - cheatsheet 2](img/img-14-2.png)
+- [Measurement - cheatsheet 3](img/img-14-3.png)
+- [Measurement - cheatsheet 4](img/img-14-4.png)
+
+### Lecture 16: Angular Momentum
+
+#### Book
+
+- [Book - 18.8 - aaa](pdf/book-18.8.pdf)
+- [Book - 19.1 - aaa](pdf/book-19.1.pdf)
+- [Book - 19.2 - aaa](pdf/book-19.2.pdf)
+- [Book - 19.3 - aaa](pdf/book-19.3.pdf)
+
+### Deep Dive: Hidden Variables
+
+### Lecture 17: Angular Momentum Continued
+
+#### Book
+
+- [Book - 19.4 - aaa](pdf/book-19.4.pdf)
+
+### Lecture 18: Angular Momentum Continued
+
+#### Book
+
+- [Book - 19.7 - aaa](pdf/book-19.7.pdf)
+- [Book - 19.8 - aaa](pdf/book-19.8.pdf)
