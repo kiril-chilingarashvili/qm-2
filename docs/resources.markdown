@@ -313,7 +313,6 @@ publish: true
 
 #### Book
 
-- [Book - 18.8 - aaa](pdf/book-18.8.pdf)
 - [Book - 19.1 - aaa](pdf/book-19.1.pdf)
 - [Book - 19.2 - aaa](pdf/book-19.2.pdf)
 - [Book - 19.3 - aaa](pdf/book-19.3.pdf)
