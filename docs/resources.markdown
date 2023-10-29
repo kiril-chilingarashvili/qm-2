@@ -96,7 +96,7 @@ publish: true
   - Spin-Orbit coupling
     - The physical interaction
     - Complete set of observables
-    - Level plitting
+    - Level splitting
     - Computation of $1 \otimes \frac{1}{2}$
   - General aspects of addition of angular momentum
   - Hydrogen atom and hidden symmetry
