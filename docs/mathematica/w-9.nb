@@ -1,0 +1,74 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1884,         66]
+NotebookOptionsPosition[      1407,         49]
+NotebookOutlinePosition[      1807,         65]
+CellTagsIndexPosition[      1764,         62]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"E", "^", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "3"}], "*", 
+       RowBox[{"r", "/", "a"}]}], ")"}]}], "*", 
+    RowBox[{"r", "^", "2"}]}], ",", " ", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", "0", ",", "Infinity"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9084096230236197`*^9, 3.90840965162549*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"4e517915-e556-401a-a4c4-9b51274fb1a7"],
+
+Cell[BoxData[
+ TemplateBox[{
+   FractionBox[
+    RowBox[{"2", " ", 
+      SuperscriptBox["a", "3"]}], "27"], 
+   RowBox[{
+     RowBox[{"Re", "[", "a", "]"}], ">", "0"}]},
+  "ConditionalExpression"]], "Output",
+ CellChangeTimes->{3.908409655220088*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"b1763fad-fb97-4ac0-bbe5-b763e9a73507"]
+}, Open  ]]
+},
+WindowSize->{808, 763},
+WindowMargins->{{Automatic, -121}, {-81, Automatic}},
+FrontEndVersion->"13.2 for Mac OS X ARM (64-bit) (November 18, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"27662932-0728-4dbe-981e-9461fbd01f0a"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 479, 13, 30, "Input",ExpressionUUID->"4e517915-e556-401a-a4c4-9b51274fb1a7"],
+Cell[1062, 37, 329, 9, 85, "Output",ExpressionUUID->"b1763fad-fb97-4ac0-bbe5-b763e9a73507"]
+}, Open  ]]
+}
+]
+*)
+
