@@ -426,3 +426,84 @@ function.
 - Swap operator
 
     $$F=\frac{1}{2}\left(1 \otimes 1+\sum_{i=1}^3 \sigma_i \otimes \sigma_i\right)$$
+
+- Angular Momentum Algebra
+
+    $$
+    \vec{L}=\vec{r} \times \vec{p} .
+    $$
+
+
+    $$
+    \begin{aligned}
+    & L_x=y p_z-z p_y, \\
+    & L_y=z p_x-x p_z \\
+    & L_z=x p_y-y p_x
+    \end{aligned}
+    $$
+
+    $$\begin{aligned} & \vec{r} \rightarrow(\hat{x}, \hat{y}, \hat{z}), \\ & \vec{p} \rightarrow\left(\hat{p}_x, \hat{p}_y, \hat{p}_z\right), \\ & \vec{L} \rightarrow\left(\hat{L}_x, \hat{L}_y, \hat{L}_z\right) .\end{aligned}$$
+
+    $$\begin{aligned} \mathbf{r} & \equiv \hat{x}_1 \vec{e}_1+\hat{x}_2 \vec{e}_2+\hat{x}_3 \vec{e}_3 \\ \mathbf{p} & \equiv \hat{p}_1 \vec{e}_1+\hat{p}_2 \vec{e}_2+\hat{p}_3 \vec{e}_3 \\ \mathbf{L} & \equiv \hat{L}_1 \vec{e}_1+\hat{L}_2 \vec{e}_2+\hat{L}_3 \vec{e}_3\end{aligned}$$
+
+    $$\begin{aligned} & \mathbf{a} \equiv a_1 \vec{e}_1+a_2 \vec{e}_2+a_3 \vec{e}_3 \\ & \mathbf{b} \equiv b_1 \vec{e}_1+b_2 \vec{e}_2+b_3 \vec{e}_3\end{aligned}$$
+
+    $$\begin{aligned} \mathbf{a} \cdot \mathbf{b} & \equiv a_i b_i \\ (\mathbf{a} \times \mathbf{b})_i & \equiv \epsilon_{i j k} a_j b_k\end{aligned}$$
+
+    $$\mathbf{a} \cdot \mathbf{b}=a_i b_i=\left[a_i, b_i\right]+b_i a_i$$
+    
+    $$\mathbf{a} \cdot \mathbf{b}=\mathbf{b} \cdot \mathbf{a}+\left[a_i, b_i\right]$$
+
+    $$\mathbf{r} \cdot \mathbf{p}=\mathbf{p} \cdot \mathbf{r}+\left[\hat{x}_i, \hat{p}_i\right]$$
+
+    $$\mathbf{r} \cdot \mathbf{p}=\mathbf{p} \cdot \mathbf{r}+3 i \hbar$$
+
+    $$(\mathbf{a} \times \mathbf{b})_i=-(\mathbf{b} \times \mathbf{a})_i+\epsilon_{i j k}\left[a_j, b_k\right]$$
+
+    $$\mathbf{r} \times \mathbf{r}=0, \quad$$
+     
+    $$\quad \mathbf{p} \times \mathbf{p}=0$$
+
+    $$(\mathbf{r} \times \mathbf{p})_i=-(\mathbf{p} \times \mathbf{r})_i+\epsilon_{i j k}\left[\hat{x}_j, \hat{p}_k\right]$$
+
+    $$\mathbf{r} \times \mathbf{p}=-\mathbf{p} \times \mathbf{r}$$
+
+    $$\begin{aligned}(\mathbf{a} \cdot \mathbf{b})^{\dagger} & =\mathbf{b}^{\dagger} \cdot \mathbf{a}^{\dagger} \\ (\mathbf{a} \times \mathbf{b})^{\dagger} & =-\mathbf{b}^{\dagger} \times \mathbf{a}^{\dagger}\end{aligned}$$
+
+    $$\mathbf{L}=\mathbf{r} \times \mathbf{p}=-\mathbf{p} \times \mathbf{r}$$
+
+    $$\hat{L}_i=\epsilon_{i j k} \hat{x}_j \hat{p}_k$$
+
+    $$\mathbf{L}^{\dagger}=(\mathbf{r} \times \mathbf{p})^{\dagger}=-\mathbf{p}^{\dagger} \times \mathbf{r}^{\dagger}=-\mathbf{p} \times \mathbf{r}=\mathbf{L}$$
+
+    $$\mathbf{L}^2=\mathbf{L} \cdot \mathbf{L}=\hat{L}_1 \hat{L}_1+\hat{L}_2 \hat{L}_2+\hat{L}_3 \hat{L}_3=\hat{L}_i \hat{L}_i$$
+
+    $$\mathbf{r} \cdot \mathbf{L}=\hat{x}_i \hat{L}_i=\hat{x}_i \epsilon_{i j k} \hat{x}_j \hat{p}_k=\epsilon_{i j k} \hat{x}_i \hat{x}_j \hat{p}_k=0$$
+
+    $$\mathbf{p} \cdot \mathbf{L}=\hat{p}_i \hat{L}_i=-\hat{p}_i(\mathbf{p} \times \mathbf{r})_i=-\hat{p}_i \epsilon_{i j k} \hat{p}_j \hat{x}_k=-\epsilon_{i j k} \hat{p}_i \hat{p}_j \hat{x}_k=0$$
+
+    $$\mathbf{r} \cdot \mathbf{L}=\mathbf{p} \cdot \mathbf{L}=0$$
+
+    $$\epsilon_{i j k} \epsilon_{i p q}=\delta_{j p} \delta_{k q}-\delta_{j q} \delta_{k p}$$
+
+    $$\epsilon_{i j k} \epsilon_{i j q}=2 \delta_{k q}$$
+
+    $$\begin{aligned} {[\mathbf{a} \times(\mathbf{b} \times \mathbf{c})]_k } & =\epsilon_{k j i} a_j(\mathbf{b} \times \mathbf{c})_i \\ & =\epsilon_{k j i} \epsilon_{i p q} a_j b_p c_q \\ & =-\epsilon_{i j k} \epsilon_{i p q} a_j b_p c_q \\ & =-\left(\delta_{j p} \delta_{k q}-\delta_{j q} \delta_{k p}\right) a_j b_p c_q \\ & =a_j b_k c_j-a_j b_j c_k \\ & =\left[a_j, b_k\right] c_j+b_k a_j c_j-a_j b_j c_k \\ & =\left[a_j, b_k\right] c_j+b_k(\mathbf{a} \cdot \mathbf{c})-(\mathbf{a} \cdot \mathbf{b}) c_k\end{aligned}$$
+
+    $$\mathbf{a} \times(\mathbf{b} \times \mathbf{c})=\mathbf{b}(\mathbf{a} \cdot \mathbf{c})-(\mathbf{a} \cdot \mathbf{b}) \mathbf{c}+\left[a_j, \mathbf{b}\right] c_j$$
+
+    $$(\vec{a} \times \vec{b})^2 \equiv(\vec{a} \times \vec{b}) \cdot(\vec{a} \times \vec{b})=\vec{a}^2 \vec{b}^2-(\vec{a} \cdot \vec{b})^2$$
+
+    $$\mathbf{L}^2=\mathbf{r}^2 \mathbf{p}^2-(\mathbf{r} \cdot \mathbf{p})^2+i \hbar \mathbf{r} \cdot \mathbf{p}$$
+
+    $$\mathbf{a} \cdot(\mathbf{b} \times \mathbf{c})=(\mathbf{a} \times \mathbf{b}) \cdot \mathbf{c}$$
+
+    $$\begin{aligned} {\left[\hat{L}_i, \hat{x}_j\right] } & =i \hbar \epsilon_{i j k} \hat{x}_k \\ {\left[\hat{L}_i, \hat{p}_j\right] } & =i \hbar \epsilon_{i j k} \hat{p}_k\end{aligned}$$
+
+    $$\begin{aligned} {\left[\hat{L}_i, \mathbf{u} \cdot \mathbf{v}\right] } & =0 \\ {\left[\hat{L}_i,(\mathbf{u} \times \mathbf{v})_j\right] } & =i \hbar \epsilon_{i j k}(\mathbf{u} \times \mathbf{v})_k .\end{aligned}$$
+
+    $$\left[\hat{L}_i, \hat{L}_j\right]=i \hbar \epsilon_{i j k} \hat{L}_k$$
+
+    $$\left[\hat{L}_i, \mathbf{L}^2\right]=0$$
+
+    $$\mathbf{L} \times \mathbf{L}=i \hbar \mathbf{L} \quad \Longleftrightarrow \quad\left[\hat{L}_i, \hat{L}_j\right]=i \hbar \epsilon_{i j k} \hat{L}_k$$
