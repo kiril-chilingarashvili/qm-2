@@ -554,3 +554,125 @@ function.
 
     $$2 j \in \mathbb{Z} \quad \rightarrow \quad j \in \mathbb{Z} / 2, \quad \rightarrow \quad j=0, \frac{1}{2}, 1, \frac{3}{2}, 2, \ldots$$
 
+- Addition of Angular Momentum
+
+    Let us now assume we have two angular momenta:
+    Hermitian operators $J_i^{(1)}$ acting on $V_1$ and satisfying $\left[\hat{J}_i^{(1)}, \hat{J}_j^{(1)}\right]=i \hbar \epsilon_{i j k} \hat{J}_k^{(1)}$
+    Hermitian operators $J_i^{(2)}$ acting on $V_2$ and satisfying $\left[\hat{J}_i^{(2)}, \hat{J}_j^{(2)}\right]=i \hbar \epsilon_{i j k} \hat{J}_k^{(2)}$
+
+    Our claim is that the 'sum' of angular momenta is an angular momentum in the tensor product:
+    
+    $$
+    \hat{J}_i \equiv \hat{J}_i^{(1)} \otimes \mathbf{1}+\mathbf{1} \otimes \hat{J}_i^{(2)} \text { satisfies }\left[\hat{J}_i, \hat{J}_j\right]=i \hbar \epsilon_{i j k} \hat{J}_k \text { acting on } V_1 \otimes V_2 .
+    $$
+    
+    $$\begin{aligned} {\left[\hat{J}_i, \hat{J}_j\right] } & =i \hbar \epsilon_{i j k} \hat{J}_k^{(1)} \otimes \mathbf{1}+i \hbar \epsilon_{i j k} \mathbf{1} \otimes \hat{J}_k^{(2)} \\ & =i \hbar \epsilon_{i j k}\left(\hat{J}_k^{(1)} \otimes \mathbf{1}+\mathbf{1} \otimes \hat{J}_k^{(2)}\right) \\ & =i \hbar \epsilon_{i j k} \hat{J}_k\end{aligned}$$
+
+    $$\begin{aligned}|1,1\rangle & =|\uparrow \uparrow\rangle, \\ |1,0\rangle & =\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle+|\downarrow \uparrow\rangle), \\ |1,-1\rangle & =|\downarrow \downarrow\rangle . \\ |0,0\rangle & =\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle-|\downarrow \uparrow\rangle) .\end{aligned}$$
+
+- Feynman-Hellman lemma
+
+    $$\frac{d E(\lambda)}{d \lambda}=\left\langle\psi(\lambda)\left|\frac{d H(\lambda)}{d \lambda}\right| \psi(\lambda)\right\rangle$$
+
+    $$\Delta E=\langle\psi(0)|\Delta H| \psi(0)\rangle$$
+
+- General aspects of addition of angular momentum
+
+    $$j_1 \otimes j_2=\left(j_1+j_2\right) \oplus\left(j_1+j_2-1\right) \oplus \ldots \oplus\left|j_1-j_2\right|$$
+
+- Hydrogen atom and hidden symmetry
+
+    $$E_n=-\frac{e^2}{2 a_0} \frac{1}{n^2}, \quad n=1,2, \ldots$$
+
+    $$\ell=0,1, \ldots, n-1$$
+
+    $$\mathcal{H}_n=(\ell=n-1) \oplus(\ell=n-2) \oplus \cdots \oplus(\ell=0)$$
+
+    $$H=\frac{\mathbf{p}^{\mathbf{2}}}{2 m}-\frac{e^2}{r}$$
+
+    $$[H, \mathbf{L}]=0, \quad \mathbf{L} \times \mathbf{L}=i \hbar \mathbf{L}$$
+
+    This Runge-Lenz vector $R$ is defined to be:
+    $$
+    \mathbf{R} \equiv \frac{1}{2 m e^2}(\mathbf{p} \times \mathbf{L}-\mathbf{L} \times \mathbf{p})-\frac{\mathbf{r}}{r}
+    $$
+
+    $$[H, \mathbf{R}]=0$$
+
+    $$\mathbf{p} \times \mathbf{L}=-\mathbf{L} \times \mathbf{p}+2 i \hbar \mathbf{p}$$
+
+    $$\mathbf{R}=\frac{1}{m e^2}(\mathbf{p} \times \mathbf{L}-i \hbar \mathbf{p})-\frac{\mathbf{r}}{r}=\frac{1}{m e^2}(-\mathbf{L} \times \mathbf{p}+i \hbar \mathbf{p})-\frac{\mathbf{r}}{r}$$
+
+    $$\mathbf{R}^2=1+\frac{2 H}{m e^4}\left(\mathbf{L}^2+\hbar^2\right)$$
+
+    $$\mathbf{r} \cdot \mathbf{L}=0, \quad \mathbf{p} \cdot \mathbf{L}=0$$
+
+    $$\mathbf{R} \cdot \mathbf{L}=\frac{1}{m e^2}(\mathbf{p} \times \mathbf{L}) \cdot \mathbf{L}$$
+
+    $$(\mathbf{p} \times \mathbf{L}) \cdot \mathbf{L}=\epsilon_{i j k} p_j L_k L_i=p_j \epsilon_{j k i} L_k L_i=p_j(\mathbf{L} \times \mathbf{L})_j=\mathbf{p} \cdot(i \hbar \mathbf{L})=0$$
+
+    $$\mathbf{R} \cdot \mathbf{L}=0$$
+
+    $$\left[L_i, \hat{v}_j\right]=i \hbar \epsilon_{i j k} \hat{v}_k$$
+
+    $$\begin{aligned}(\mathbf{L} \times \mathbf{v}+\mathbf{v} \times \mathbf{L})_i & =\epsilon_{i j k}\left(L_j \hat{v}_k+\hat{v}_j L_k\right) \\ & =\epsilon_{i j k}\left(L_j \hat{v}_k-\hat{v}_k L_j\right) \\ & =\epsilon_{i j k}\left[L_j, \hat{v}_k\right] \\ & =\epsilon_{i j k} i \hbar \epsilon_{j k l} \hat{v}_l \\ & =\epsilon_{i j k} \epsilon_{l j k} i \hbar \hat{v}_l \\ & =2 \delta_{i l} i \hbar \hat{v}_l=2 i \hbar \hat{v}_i\end{aligned}$$
+
+    $$\mathbf{L} \times \mathbf{v}+\mathbf{v} \times \mathbf{L}=2 i \hbar \mathbf{v}$$
+
+    $$\mathbf{L} \times \mathbf{R}+\mathbf{R} \times \mathbf{L}=2 i \hbar \mathbf{R}$$
+
+    $$\left[L_i, R_j\right]=i \hbar \epsilon_{i j k} R_k$$
+
+    $$\left[S_1, H\right]=\left[S_2, H\right]=0$$
+
+    $$\begin{gathered}{\left[\left[S_1, S_2\right], H\right]+\left[\left[H, S_1\right], S_2\right]+\left[\left[S_2, H\right], S_1\right]=0} \\ {\left[\left[S_1, S_2\right], H\right]=\left[\left[S_1, H\right], S_2\right]-\left[\left[S_2, H\right], S_1\right]}\end{gathered}$$
+
+    $$\left[\left[S_1, S_2\right], H\right]=0$$
+
+    $\mathbf{R} \times \mathbf{R}=(\cdots)$ "conserved vector"
+
+    $$\mathbf{R} \times \mathbf{R}=i \hbar\left(-\frac{2 H}{m e^4}\right) \mathbf{L}$$
+
+    $$H=E_\nu=-\frac{m e^4}{2 \hbar^2} \frac{1}{\nu^2}, \quad \nu \in \mathbb{R}$$
+
+    $$-\frac{2 H}{m e^4}=\frac{1}{\hbar^2 \nu^2}$$
+
+    $$\begin{aligned} \mathbf{R} \times \mathbf{R} & =i \hbar \frac{1}{\hbar^2 \nu^2} \mathbf{L} \\ \mathbf{R}^2 & =1-\frac{1}{\hbar^2 \nu^2}\left(\mathbf{L}^2+\hbar^2\right)\end{aligned}$$
+
+    $$\begin{aligned}(\hbar \nu \mathbf{R}) \times(\hbar \nu \mathbf{R}) & =i \hbar \mathbf{L}, \\ \mathbf{L}^2+\hbar^2 \nu^2 \mathbf{R}^2 & =\hbar^2\left(\nu^2-1\right) .\end{aligned}$$
+
+    $$\begin{aligned} & \mathbf{J}_1 \equiv \frac{1}{2}(\mathbf{L}+\hbar \nu \mathbf{R}) \\ & \mathbf{J}_2 \equiv \frac{1}{2}(\mathbf{L}-\hbar \nu \mathbf{R})\end{aligned}$$
+
+    $$\begin{aligned} \mathbf{L} & =\mathbf{J}_1+\mathbf{J}_2 \\ \hbar \nu \mathbf{R} & =\mathbf{J}_1-\mathbf{J}_2\end{aligned}$$
+
+    $$\begin{aligned} {\left[J_{1 i}, J_{2 j}\right] } & =\frac{1}{4}\left[L_i+\hbar \nu R_i, L_j-\hbar \nu R_j\right] \\ & =\frac{1}{4}\left(i \hbar \epsilon_{i j k} L_k-\hbar \nu\left[L_i, R_j\right]-\hbar \nu\left[L_j, R_i\right]-i \hbar \epsilon_{i j k} L_k\right)=0\end{aligned}$$
+
+    $$\begin{aligned} \mathbf{J}_{1 / 2} \times \mathbf{J}_{1 / 2} & =\frac{1}{4}(\mathbf{L} \pm \hbar \nu \mathbf{R}) \times(\mathbf{L} \pm \hbar \nu \mathbf{R}) \\ & =\frac{1}{4}(i \hbar \mathbf{L}+i \hbar \mathbf{L} \pm(\mathbf{L} \times \hbar \nu \mathbf{R}+\hbar \nu \mathbf{R} \times \mathbf{L})) \\ & =\frac{1}{4}(2 i \hbar \mathbf{L} \pm 2 i \hbar \hbar \nu \mathbf{R}) \\ & =i \hbar \frac{1}{2}(\mathbf{L} \pm \hbar \nu \mathbf{R})=\mathbf{J}_{1 / 2}\end{aligned}$$
+
+    $$\begin{aligned} \mathbf{J}_1 \times \mathbf{J}_1 & =i \hbar \mathbf{J}_1, \\ \mathbf{J}_2 \times \mathbf{J}_2 & =i \hbar \mathbf{J}_2, \\ {\left[\mathbf{J}_1, \mathbf{J}_2\right] } & =0\end{aligned}$$
+
+    $$\left(\mathbf{J}_1+\mathbf{J}_2\right)\left(\mathbf{J}_1-\mathbf{J}_2\right)=0 \quad \rightarrow \quad \mathbf{J}_1^2=\mathbf{J}_2^2$$
+
+    $$\mathbf{J}_1^2=\frac{1}{4}\left(\mathbf{L}^2+\hbar^2 \nu^2 \mathbf{R}^2\right)=\frac{1}{4} \hbar^2\left(\nu^2-1\right)$$
+
+    $$\mathbf{J}_1^2=\mathbf{J}_2^2=\frac{1}{4} \hbar^2\left(\nu^2-1\right)=\hbar^2 j(j+1)$$
+
+    $$\nu^2=1+4 j(j+1)=4 j^2+4 j+1=(2 j+1)^2 \quad \rightarrow \quad \nu=2 j+1$$
+
+    $$\begin{aligned} j & =0, \frac{1}{2}, 1, \frac{3}{2}, \ldots \\ n \equiv \nu=2 j+1 & =1,2,3,4, \ldots\end{aligned}$$
+
+    $$\mathcal{H}_n=j \otimes j \quad$$ 
+    
+    with basis states 
+    
+    $$\quad\left|j_1=j ; m_1\right\rangle \otimes\left|j_2=j ; m_2\right\rangle, \quad-j \leq m_1, m_2 \leq j$$
+
+    $$j \otimes j=2 j \oplus 2 j-1 \oplus \ldots \oplus 0$$
+
+    $$(\ell=2 j) \oplus(\ell=2 j-1) \oplus \ldots \oplus 0$$
+
+    $$\mathcal{H}_n=(\ell=n-1) \oplus(\ell=n-2) \oplus \ldots \oplus(\ell=0)$$
+
+    $$\ell=1:\left\{\begin{array}{l}|1,1\rangle=|\uparrow \uparrow\rangle, \\ |1,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle+|\downarrow \uparrow\rangle), \quad \ell=0: \quad|0,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle-|\downarrow \uparrow\rangle) . \\ |1,-1\rangle=|\downarrow \downarrow\rangle\end{array}\right.$$
+
+    
