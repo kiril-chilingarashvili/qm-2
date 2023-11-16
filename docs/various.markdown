@@ -507,3 +507,50 @@ function.
     $$\left[\hat{L}_i, \mathbf{L}^2\right]=0$$
 
     $$\mathbf{L} \times \mathbf{L}=i \hbar \mathbf{L} \quad \Longleftrightarrow \quad\left[\hat{L}_i, \hat{L}_j\right]=i \hbar \epsilon_{i j k} \hat{L}_k$$
+
+    $$\left[a_i, b_j\right]=\epsilon_{i j k} c_k \rightarrow \mathbf{a} \times \mathbf{b}+\mathbf{b} \times \mathbf{a}=2 \mathbf{c}$$
+
+- The central potential Hamiltonian
+
+    $$\mathbf{L}^2=-\hbar^2\left(\frac{1}{\sin \theta} \frac{\partial}{\partial \theta} \sin \theta \frac{\partial}{\partial \theta}+\frac{1}{\sin ^2 \theta} \frac{\partial^2}{\partial \phi^2}\right)$$
+
+    $$H=\frac{\mathbf{p}^2}{2 m}+V(r)=-\frac{\hbar^2}{2 m} \frac{1}{r} \frac{\partial^2}{\partial r^2} r+\frac{1}{2 m r^2} \mathbf{L}^2+V(r)$$
+
+    Commuting observables: $H, \hat{L}_z, \mathbf{L}^2$.
+
+- Algebraic theory of angular momentum 
+
+    $$\begin{gathered}{\left[\hat{J}_i, \hat{J}_j\right]=i \hbar \epsilon_{i j k} \hat{J}_k} \\ {\left[\hat{J}_x, \hat{J}_y\right]=i \hbar \hat{J}_z} \\ {\left[\hat{J}_y, \hat{J}_z\right]=i \hbar \hat{J}_x} \\ {\left[\hat{J}_z, \hat{J}_x\right]=i \hbar \hat{J}_y}\end{gathered}$$
+
+    $$\left[\hat{J}_i, \mathbf{J}^2\right]=0$$
+
+    $$\begin{aligned} & \hat{J}_{+} \equiv \hat{J}_x+i \hat{J}_y \\ & \hat{J}_{-} \equiv \hat{J}_x-i \hat{J}_y\end{aligned}$$
+
+    $$\left(\hat{J}_{+}\right)^{\dagger}=\hat{J}_{-}$$
+
+    $$\begin{aligned} & \hat{J}_{+} \hat{J}_{-}=\hat{J}_x^2+\hat{J}_y^2+\hbar \hat{J}_z \\ & \hat{J}_{-} \hat{J}_{+}=\hat{J}_x^2+\hat{J}_y^2-\hbar \hat{J}_z\end{aligned}$$
+
+    $$\left[\hat{J}_{+}, \hat{J}_{-}\right]=2 \hbar \hat{J}_z$$
+
+    $$\mathbf{J}^2=\hat{J}_{+} \hat{J}_{-}+\hat{J}_z^2-\hbar \hat{J}_z=\hat{J}_{-} \hat{J}_{+}+\hat{J}_z^2+\hbar \hat{J}_z$$
+
+    $$\left[\hat{J}_{ \pm}, \mathbf{J}^2\right]=0$$
+
+    $$\left[\hat{J}_z, \hat{J}_{ \pm}\right]= \pm \hbar \hat{J}_{ \pm}$$
+
+    $$\begin{aligned} \mathbf{J}^2|j, m\rangle & =\hbar^2 j(j+1)|j, m\rangle \\ \hat{J}_z|j, m\rangle & =\hbar m|j, m\rangle\end{aligned}$$
+
+    $$\left\langle j^{\prime}, m^{\prime} \mid j, m\right\rangle=\delta_{j^{\prime}, j} \delta_{m^{\prime}, m}$$
+
+    $$\hbar^2 j(j+1)=\left\langle j, m\left|\mathbf{J}^2\right| j, m\right\rangle=\sum_{i=1}^3\left\langle j, m\left|\hat{J}_i \hat{J}_i\right| j, m\right\rangle=\sum_{i=1}^3 \| \hat{J}_i|j, m\rangle \|^2 \geq 0$$
+
+    $$\mathbf{J}^2\left(\hat{J}_{ \pm}|j, m\rangle\right)=\hat{J}_{ \pm} \mathbf{J}^2|j, m\rangle=\hbar j(j+1)\left(\hat{J}_{ \pm}|j, m\rangle\right)$$
+
+    $$\hat{J}_{\mp} \hat{J}_{ \pm}=\mathbf{J}^2-\hat{J}_z^2 \mp \hbar \hat{J}_z$$
+
+    $$\left|C_{ \pm}(j, m)\right|^2=\hbar^2(j(j+1)-m(m \pm 1))=\| \hat{J}_{ \pm}|j, m\rangle \|^2$$
+
+    $$J_{ \pm}|j, m\rangle=\hbar \sqrt{j(j+1)-m(m \pm 1)}|j, m \pm 1\rangle$$
+
+    $$2 j \in \mathbb{Z} \quad \rightarrow \quad j \in \mathbb{Z} / 2, \quad \rightarrow \quad j=0, \frac{1}{2}, 1, \frac{3}{2}, 2, \ldots$$
+
