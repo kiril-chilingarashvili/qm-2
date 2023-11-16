@@ -556,12 +556,6 @@ function.
 
 - Addition of Angular Momentum
 
-    Let us now assume we have two angular momenta:
-    Hermitian operators $J_i^{(1)}$ acting on $V_1$ and satisfying $\left[\hat{J}_i^{(1)}, \hat{J}_j^{(1)}\right]=i \hbar \epsilon_{i j k} \hat{J}_k^{(1)}$
-    Hermitian operators $J_i^{(2)}$ acting on $V_2$ and satisfying $\left[\hat{J}_i^{(2)}, \hat{J}_j^{(2)}\right]=i \hbar \epsilon_{i j k} \hat{J}_k^{(2)}$
-
-    Our claim is that the 'sum' of angular momenta is an angular momentum in the tensor product:
-    
     $$
     \hat{J}_i \equiv \hat{J}_i^{(1)} \otimes \mathbf{1}+\mathbf{1} \otimes \hat{J}_i^{(2)} \text { satisfies }\left[\hat{J}_i, \hat{J}_j\right]=i \hbar \epsilon_{i j k} \hat{J}_k \text { acting on } V_1 \otimes V_2 .
     $$
@@ -629,7 +623,7 @@ function.
 
     $$\left[\left[S_1, S_2\right], H\right]=0$$
 
-    $\mathbf{R} \times \mathbf{R}=(\cdots)$ "conserved vector"
+    $$\mathbf{R} \times \mathbf{R}=(\cdots) \text{"conserved vector"} $$
 
     $$\mathbf{R} \times \mathbf{R}=i \hbar\left(-\frac{2 H}{m e^4}\right) \mathbf{L}$$
 
@@ -675,4 +669,4 @@ function.
 
     $$\ell=1:\left\{\begin{array}{l}|1,1\rangle=|\uparrow \uparrow\rangle, \\ |1,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle+|\downarrow \uparrow\rangle), \quad \ell=0: \quad|0,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle-|\downarrow \uparrow\rangle) . \\ |1,-1\rangle=|\downarrow \downarrow\rangle\end{array}\right.$$
 
-    
+
