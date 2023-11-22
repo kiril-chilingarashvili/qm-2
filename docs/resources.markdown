@@ -331,3 +331,45 @@ publish: true
 
 - [Book - 19.7 - aaa](pdf/book-19.7.pdf)
 - [Book - 19.8 - aaa](pdf/book-19.8.pdf)
+
+### Lecture 19: Addition of Angular Momentum
+
+#### Book
+
+- [Book - 20.1 - aaa](pdf/book-20.1.pdf)
+- [Book - 20.2 - aaa](pdf/book-20.2.pdf)
+- [Book - 20.3 - aaa](pdf/book-20.3.pdf)
+
+### Lecture 20: Addition of Angular Momentum Continued
+
+#### Book
+
+- [Book - 20.4 - aaa](pdf/book-20.4.pdf)
+- [Book - 20.5 - aaa](pdf/book-20.5.pdf)
+- [Book - 20.6 - aaa](pdf/book-20.6.pdf)
+
+### Lecture 21: Addition of Angular Momentum Continued
+
+#### Book
+
+- [Book - 20.7 - aaa](pdf/book-20.7.pdf)
+
+### Lecture 22: Algebraic solution for the hydrogen atom bound-state spectrum
+
+#### Book
+
+- [Book - 20.8 - aaa](pdf/book-20.8.pdf)
+
+### Lecture 23: Ensembles and Density Matrices
+
+#### Book
+
+- [Book - 22.1 - aaa](pdf/book-22.1.pdf)
+
+### Lecture 24: Dynamics of density matrices and subsystems
+
+#### Book
+
+- [Book - 22.2 - aaa](pdf/book-22.2.pdf)
+- [Book - 22.3 - aaa](pdf/book-22.3.pdf)
+- [Book - 22.4 - aaa](pdf/book-22.4.pdf)
