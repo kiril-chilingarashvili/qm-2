@@ -296,9 +296,9 @@ publish: true
 
 #### Book
 
-- [Book - 18.6 - aaa](pdf/book-18.6.pdf)
-- [Book - 18.7 - aaa](pdf/book-18.7.pdf)
-- [Book - 18.8 - aaa](pdf/book-18.8.pdf)
+- [Book - 18.6 - Bell Basis States](pdf/book-18.6.pdf)
+- [Book - 18.7 - Quantum Teleportation](pdf/book-18.7.pdf)
+- [Book - 18.8 - EPR and Bell Inequalities](pdf/book-18.8.pdf)
 
 ### Tutorial on Measurement
 
@@ -313,9 +313,9 @@ publish: true
 
 #### Book
 
-- [Book - 19.1 - aaa](pdf/book-19.1.pdf)
-- [Book - 19.2 - aaa](pdf/book-19.2.pdf)
-- [Book - 19.3 - aaa](pdf/book-19.3.pdf)
+- [Book - 19.1 - Angular Momentum and Quantum Vector Identities](pdf/book-19.1.pdf)
+- [Book - 19.2 - Properties of Angular Momentum](pdf/book-19.2.pdf)
+- [Book - 19.3 - Multiplets of Angular Momentum](pdf/book-19.3.pdf)
 
 ### Deep Dive: Hidden Variables
 
@@ -323,53 +323,53 @@ publish: true
 
 #### Book
 
-- [Book - 19.4 - aaa](pdf/book-19.4.pdf)
+- [Book - 19.4 - Central Potentials and Radial Equation](pdf/book-19.4.pdf)
 
 ### Lecture 18: Angular Momentum Continued
 
 #### Book
 
-- [Book - 19.7 - aaa](pdf/book-19.7.pdf)
-- [Book - 19.8 - aaa](pdf/book-19.8.pdf)
+- [Book - 19.7 - The Three-Dimensional Isotropic Oscillator](pdf/book-19.7.pdf)
+- [Book - 19.8 - The Runge-Lenz Vector](pdf/book-19.8.pdf)
 
 ### Lecture 19: Addition of Angular Momentum
 
 #### Book
 
-- [Book - 20.1 - aaa](pdf/book-20.1.pdf)
-- [Book - 20.2 - aaa](pdf/book-20.2.pdf)
-- [Book - 20.3 - aaa](pdf/book-20.3.pdf)
+- [Book - 20.1 - Adding Apples to Oranges?](pdf/book-20.1.pdf)
+- [Book - 20.2 - Adding Two Spin One-Half Angular Momenta](pdf/book-20.2.pdf)
+- [Book - 20.3 - A Primer in Perturbation Theory](pdf/book-20.3.pdf)
 
 ### Lecture 20: Addition of Angular Momentum Continued
 
 #### Book
 
-- [Book - 20.4 - aaa](pdf/book-20.4.pdf)
-- [Book - 20.5 - aaa](pdf/book-20.5.pdf)
-- [Book - 20.6 - aaa](pdf/book-20.6.pdf)
+- [Book - 20.4 - Hyperfine Splitting](pdf/book-20.4.pdf)
+- [Book - 20.5 - Computation of $1 \otimes \frac{1}{2}$](pdf/book-20.5.pdf)
+- [Book - 20.6 - Spin-Orbit Coupling](pdf/book-20.6.pdf)
 
 ### Lecture 21: Addition of Angular Momentum Continued
 
 #### Book
 
-- [Book - 20.7 - aaa](pdf/book-20.7.pdf)
+- [Book - 20.7 - General Aspects of Addition of Angular Momentum](pdf/book-20.7.pdf)
 
 ### Lecture 22: Algebraic solution for the hydrogen atom bound-state spectrum
 
 #### Book
 
-- [Book - 20.8 - aaa](pdf/book-20.8.pdf)
+- [Book - 20.8 - Hydrogen Atom and Hidden Symmetry](pdf/book-20.8.pdf)
 
 ### Lecture 23: Ensembles and Density Matrices
 
 #### Book
 
-- [Book - 22.1 - aaa](pdf/book-22.1.pdf)
+- [Book - 22.1 - Ensembles and Mixed States](pdf/book-22.1.pdf)
 
 ### Lecture 24: Dynamics of density matrices and subsystems
 
 #### Book
 
-- [Book - 22.2 - aaa](pdf/book-22.2.pdf)
-- [Book - 22.3 - aaa](pdf/book-22.3.pdf)
-- [Book - 22.4 - aaa](pdf/book-22.4.pdf)
+- [Book - 22.2 - The Density Matrix](pdf/book-22.2.pdf)
+- [Book - 22.3 - Dynamics of Density Matrices](pdf/book-22.3.pdf)
+- [Book - 22.4 - Subsystems and Schmidt Decomposition](pdf/book-22.4.pdf)
