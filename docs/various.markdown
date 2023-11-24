@@ -426,8 +426,6 @@ function.
 - Swap operator
 
     $$F=\frac{1}{2}\left(1 \otimes 1+\sum_{i=1}^3 \sigma_i \otimes \sigma_i\right)$$
-<<<<<<< HEAD
-=======
 
 - Angular Momentum Algebra
 
@@ -672,4 +670,3 @@ function.
     $$\ell=1:\left\{\begin{array}{l}|1,1\rangle=|\uparrow \uparrow\rangle, \\ |1,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle+|\downarrow \uparrow\rangle), \quad \ell=0: \quad|0,0\rangle=\frac{1}{\sqrt{2}}(|\uparrow \downarrow\rangle-|\downarrow \uparrow\rangle) . \\ |1,-1\rangle=|\downarrow \downarrow\rangle\end{array}\right.$$
 
 
->>>>>>> c61f3ae427d7f5899bdc297c820dc36a6bac14b7
