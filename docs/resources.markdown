@@ -374,6 +374,6 @@ publish: true
 - [Book - 22.3 - Dynamics of Density Matrices](pdf/book-22.3.pdf)
 - [Book - 22.4 - Subsystems and Schmidt Decomposition](pdf/book-22.4.pdf)
 
-## Exam 1
+## Exam 2
 
 - [Formula sheet](pdf/805x_formula_sheet_2.pdf)
